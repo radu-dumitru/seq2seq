@@ -67,28 +67,32 @@ def expand_contractions(text):
         text = re.sub(r"\b" + re.escape(contraction) + r"\b", expanded, text)
     return text
 
-def clearn_sentence(sentence):
+def clean_sentence(sentence):
 	sentence = sentence.lower().strip()
 
 	# Remove text inside parentheses or brackets
 	sentence = re.sub(r"\([^)]*\)", "", sentence)
 	sentence = re.sub(r"\[[^)]*\]", "", sentence)
 
+	# Expand contractions
 	sentence = expand_contractions(sentence)
 
 	# Keep only letters, numbers, and basic punctuation
 	sentence = re.sub(r"[^a-z0-9!?',.]+", " ", sentence)
 
+	# Separate punctuation from words (so "area!" -> "area !")
+	sentence = re.sub(r"([!?',.])", r" \1 ", sentence)
+
 	# Normalize punctuation
-	sentence = re.sub(r"[.]{2,}", ".", sentence)      # "..." → "."
-	sentence = re.sub(r"[!?]{2,}", lambda m: m.group(0)[0], sentence)  # "!!!" → "!"
-	sentence = re.sub(r"\s+", " ", sentence).strip()  # collapse spaces
+	sentence = re.sub(r"[.]{2,}", ".", sentence)             # "..." -> "."
+	sentence = re.sub(r"[!?]{2,}", lambda m: m.group(0)[0], sentence)  # "!!!" -> "!"
+	sentence = re.sub(r"\s+", " ", sentence).strip()         # collapse spaces
 
 	return sentence
 
 conversations = []
 
-with open("data/movie-dialogs/movie_conversations.txt", "r", encoding="utf-8", errors="ignore") as f:
+with open("data/movie_conversations.txt", "r", encoding="utf-8", errors="ignore") as f:
 	lines = f.read().split("\n")
 	for line in lines:
 		parts = line.split(" +++$+++ ")
@@ -98,7 +102,7 @@ with open("data/movie-dialogs/movie_conversations.txt", "r", encoding="utf-8", e
 
 movie_lines = {}
 
-with open("data/movie-dialogs/movie_lines.txt" , "r", encoding="utf-8", errors="ignore") as f:
+with open("data/movie_lines.txt" , "r", encoding="utf-8", errors="ignore") as f:
 	lines = f.read().split("\n")
 	for line in lines:
 		parts = line.split(" +++$+++ ")
@@ -110,8 +114,8 @@ dialogs = []
 for conversation in conversations:
 	for i in range(len(conversation) - 1):
 		if conversation[i] in movie_lines and conversation[i + 1] in movie_lines:
-			line1 = clearn_sentence(movie_lines[conversation[i]])
-			line2 = clearn_sentence(movie_lines[conversation[i + 1]])
+			line1 = clean_sentence(movie_lines[conversation[i]])
+			line2 = clean_sentence(movie_lines[conversation[i + 1]])
 			
 			# Filter by length (2–15 words)
 			if (2 <= len(line1.split()) <= 15 and 2 <= len(line2.split()) <= 15):
