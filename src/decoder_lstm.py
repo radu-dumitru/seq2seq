@@ -1,5 +1,6 @@
 import numpy as np
 from utils import sigmoid, softmax
+import os
 
 class DecoderLSTM:
     def __init__(self, embedding, hidden_size, vocab_size, learning_rate):
@@ -9,13 +10,21 @@ class DecoderLSTM:
         self.learning_rate = learning_rate
         embedding_dim = embedding.shape[1]
 
-        # Combine all 4 gates into one big matrix
-        self.Wx = np.random.randn(4*hidden_size, embedding_dim)*0.01
-        self.Wh = np.random.randn(4*hidden_size, hidden_size)*0.01
-        self.b = np.zeros((4*hidden_size, 1))
+        if os.path.exists("data/model.npz"):
+            params = np.load("data/model.npz", allow_pickle=True)
+            self.Wx = params["decoder_Wx"]
+            self.Wh = params["decoder_Wh"]
+            self.b  = params["decoder_b"]
+            self.Why  = params["decoder_Why"]
+            self.by = params["decoder_by"]
+        else:
+            # Combine all 4 gates into one big matrix
+            self.Wx = np.random.randn(4*hidden_size, embedding_dim)*0.01
+            self.Wh = np.random.randn(4*hidden_size, hidden_size)*0.01
+            self.b = np.zeros((4*hidden_size, 1))
 
-        self.Why = np.random.randn(vocab_size, hidden_size)*0.01
-        self.by = np.zeros((vocab_size, 1))
+            self.Why = np.random.randn(vocab_size, hidden_size)*0.01
+            self.by = np.zeros((vocab_size, 1))
 
     def forward(self, inputs, hprev, cprev):
         xs, hs, cs, os, ys, ps = {}, {}, {}, {}, {}, {}

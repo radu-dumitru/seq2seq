@@ -1,5 +1,6 @@
 import numpy as np
 from utils import sigmoid, softmax
+import os
 
 class EncoderLSTM:
     def __init__(self, embedding, hidden_size, learning_rate):
@@ -8,10 +9,16 @@ class EncoderLSTM:
         self.learning_rate = learning_rate
         embedding_dim = embedding.shape[1]
 
-        # Combine all 4 gates into one big matrix
-        self.Wx = np.random.randn(4*hidden_size, embedding_dim)*0.01
-        self.Wh = np.random.randn(4*hidden_size, hidden_size)*0.01
-        self.b = np.zeros((4*hidden_size, 1))
+        if os.path.exists("data/model.npz"):
+            params = np.load("data/model.npz", allow_pickle=True)
+            self.Wx = params["encoder_Wx"]
+            self.Wh = params["encoder_Wh"]
+            self.b  = params["encoder_b"]
+        else:
+            # Combine all 4 gates into one big matrix
+            self.Wx = np.random.randn(4*hidden_size, embedding_dim)*0.01
+            self.Wh = np.random.randn(4*hidden_size, hidden_size)*0.01
+            self.b = np.zeros((4*hidden_size, 1))
 
     def forward(self, inputs, hprev, cprev):
         xs, hs, cs, os = {}, {}, {}, {}
