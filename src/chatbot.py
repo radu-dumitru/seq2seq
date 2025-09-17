@@ -6,6 +6,17 @@ import numpy as np
 from utils import tokenize, words_to_indices
 from constants import SOS_TOKEN, EOS_TOKEN
 
+def sample_with_temperature(p_t, temperature=1.0):
+    # flatten to 1D
+    p_t = p_t.ravel()
+
+    # apply temperature scaling
+    logits = np.log(p_t + 1e-8) / temperature
+    exp_logits = np.exp(logits - np.max(logits))  # subtract max for stability
+    probs = exp_logits / np.sum(exp_logits)
+
+    return np.random.choice(len(probs), p=probs)
+
 embedding_dim = 100
 hidden_size = 128
 max_vocab_size = 8000
@@ -25,7 +36,7 @@ encoder = EncoderLSTM(embedding, hidden_size)
 decoder = DecoderLSTM(embedding, hidden_size, vocab_size)
 
 while True:
-    user_prompt = input().strip()
+    user_prompt = input("You: ").strip()
 
     enc_in = words_to_indices(tokenize(user_prompt), word2idx) + [word2idx[EOS_TOKEN]]
 
@@ -43,10 +54,11 @@ while True:
     for _ in range(max_response_len):
         hT, cT, p_t = decoder.forward_step(token_idx, hT, cT)
 
-        ix = np.argmax(p_t)
+        # ix = np.argmax(p_t)
+        ix = sample_with_temperature(p_t)
+
         generated_word = idx2word[ix]
 
-        print(generated_word)
         if generated_word == EOS_TOKEN:
             break
 
