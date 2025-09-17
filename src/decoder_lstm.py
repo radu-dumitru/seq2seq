@@ -44,9 +44,6 @@ class DecoderLSTM:
 
         return xs, hs, cs, os, zs, ys, ps
 
-    def compute_loss(self, ps, targets):
-        return sum(-np.log(ps[t][targets[t], 0]) for t in range(len(targets)))
-
     def backward(self, xs, hs, cs, os, zs, ys, ps, targets, inputs):
         dWx, dWh, db = np.zeros_like(self.Wx), np.zeros_like(self.Wh), np.zeros_like(self.b)
         dWhy, dby = np.zeros_like(self.Why), np.zeros_like(self.by)

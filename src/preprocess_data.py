@@ -122,7 +122,6 @@ for conversation in conversations:
 				dialogs.append((line1, line2))
 
 with open("data/dialogs.txt", "w", encoding="utf-8") as f:
-	file_content = ''
 	for line1, line2 in dialogs:
 		f.write(line1 + '\t' + line2 + '\n')
 
