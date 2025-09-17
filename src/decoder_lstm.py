@@ -3,7 +3,7 @@ from utils import sigmoid, softmax
 import os
 
 class DecoderLSTM:
-    def __init__(self, embedding, hidden_size, vocab_size, learning_rate):
+    def __init__(self, embedding, hidden_size, vocab_size, learning_rate=1e-2):
         self.embedding = embedding
         self.hidden_size = hidden_size
         self.vocab_size = vocab_size
@@ -52,6 +52,25 @@ class DecoderLSTM:
             ps[t] = softmax(y)
 
         return xs, hs, cs, os, zs, ys, ps
+
+    def forward_step(self, token_idx, h_prev, c_prev):
+        x_t = self.embedding[token_idx].reshape(-1, 1)
+
+        z = np.dot(self.Wx, x_t) + np.dot(self.Wh, h_prev) + self.b
+
+        i = sigmoid(z[0:self.hidden_size])
+        f = sigmoid(z[self.hidden_size:2*self.hidden_size])
+        o = sigmoid(z[2*self.hidden_size:3*self.hidden_size])
+        g = np.tanh(z[3*self.hidden_size:4*self.hidden_size])
+
+        c_t = f * c_prev + i * g
+        h_t = o * np.tanh(c_t)
+
+        y_t = np.dot(self.Why, h_t) + self.by
+        p_t = softmax(y_t)
+
+        return h_t, c_t, p_t
+
 
     def backward(self, xs, hs, cs, os, zs, ys, ps, targets, inputs):
         dWx, dWh, db = np.zeros_like(self.Wx), np.zeros_like(self.Wh), np.zeros_like(self.b)

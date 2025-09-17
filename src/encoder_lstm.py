@@ -3,7 +3,7 @@ from utils import sigmoid, softmax
 import os
 
 class EncoderLSTM:
-    def __init__(self, embedding, hidden_size, learning_rate):
+    def __init__(self, embedding, hidden_size, learning_rate=1e-2):
         self.embedding = embedding
         self.hidden_size = hidden_size
         self.learning_rate = learning_rate
