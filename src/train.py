@@ -8,7 +8,7 @@ from constants import SOS_TOKEN, EOS_TOKEN
 import os
 from adam_optimizer import Adam
 
-def save_model_params(embedding, encoder, decoder):
+def save_model_params(embedding, encoder, decoder, optimizer, step):
     np.savez(
         "data/model.npz",
         embedding=embedding,
@@ -61,6 +61,8 @@ vocab_builder = VocabBuilder()
 word2idx, idx2word = vocab_builder.build_vocab(data, max_vocab_size)
 vocab_size = len(word2idx)
 
+embedding = np.random.randn(len(word2idx), embedding_dim) * 0.01
+
 optimizer = Adam(learning_rate)
 
 encoder = EncoderLSTM(embedding, hidden_size, learning_rate)
@@ -69,8 +71,8 @@ decoder = DecoderLSTM(embedding, hidden_size, vocab_size, learning_rate)
 embedding_loaded, step = load_model_params(encoder, decoder, optimizer)
 if embedding_loaded is not None:
     embedding = embedding_loaded
-else:
-    embedding = np.random.randn(len(word2idx), embedding_dim) * 0.01
+    encoder.embedding = embedding
+    decoder.embedding = embedding
 
 for epoch in range(num_epochs):
     total_loss = 0.0
@@ -101,7 +103,7 @@ for epoch in range(num_epochs):
         )
 
         # clip gradients
-        for dparam in [dWx_enc, dWh_enc, db_enc, dWx_dec, dWh_dec, dWy_dec, db_dec, dby_dec]:
+        for dparam in [dWx_enc, dWh_enc, db_enc, dWx_dec, dWh_dec, dWhy_dec, db_dec, dby_dec]:
             np.clip(dparam, -5, 5, out=dparam)
 
         encoder.Wx = optimizer.update("encoder_Wx", encoder.Wx, dWx_enc, step)
@@ -126,7 +128,7 @@ for epoch in range(num_epochs):
             avg_loss = total_loss / checkpoint_interval
             print(f"Epoch {epoch+1} iter {i+1}/{len(data)} — avg loss: {avg_loss:.4f}")
             total_loss = 0.0
-            save_model_params(embedding, encoder, decoder)
+            save_model_params(embedding, encoder, decoder, optimizer, step)
     
     print(f"Epoch {epoch+1} finished")
     save_model_params(embedding, encoder, decoder)
