@@ -62,61 +62,124 @@ CONTRACTIONS = {
     "shouldn't": "should not",
     "couldn't": "could not",
     "mustn't": "must not",
-    "n't": " not",
+    # keep contractions that are generally unambiguous:
     "'re": " are",
     "'ll": " will",
     "'d": " would",
     "'ve": " have",
-    "'s": " is"
 }
 
-# Helps shrink vocabulary size
-def expand_contractions(text):
-    for contraction, expanded in CONTRACTIONS.items():
-        text = re.sub(r"\b" + re.escape(contraction) + r"\b", expanded, text)
-    return text
+# Compile contraction regex (longest keys first to avoid partial matches)
+_contractions_pattern = re.compile(
+    r"\b(" + "|".join(sorted(map(re.escape, CONTRACTIONS.keys()), key=len, reverse=True)) + r")\b"
+)
 
-def clean_sentence(sentence):
-	sentence = sentence.lower().strip()
+# Precompile other regexes
+_re_paren = re.compile(r"\([^)]*\)")
+_re_bracket = re.compile(r"\[[^\]]*\]")   # FIXED: exclude closing bracket, not ')'
+_re_keep = re.compile(r"[^a-z0-9!?',.]+")  # keep only these chars (after lowercasing)
+_re_multi_dot = re.compile(r"\.{2,}")
+_re_multi_punc = re.compile(r"[!?]{2,}")   # collapses sequences of ?/! (or mixed) -> first char
+_re_punct_sep = re.compile(r"([!?',.])")
+_re_spaces = re.compile(r"\s+")
+_re_word = re.compile(r"[a-z0-9]+")
 
-	# Remove text inside parentheses or brackets
-	sentence = re.sub(r"\([^)]*\)", "", sentence)
-	sentence = re.sub(r"\[[^)]*\]", "", sentence)
+def expand_contractions(text: str) -> str:
+    """Replace contractions using a single compiled regex and dict lookup."""
+    return _contractions_pattern.sub(lambda m: CONTRACTIONS[m.group(0)], text)
 
-	# Expand contractions
-	sentence = expand_contractions(sentence)
+def clean_sentence(sentence: str) -> str:
+    """
+    Clean a single sentence:
+      - lowercase
+      - remove parenthesis/bracketed text (non-nested)
+      - expand contractions (careful about ambiguous "'s")
+      - keep only a-z0-9 and basic punctuation
+      - normalize repeated punctuation BEFORE separating punctuation
+      - separate punctuation as own tokens (adds spaces around them)
+      - collapse whitespace
+    """
+    s = sentence.lower().strip()
 
-	# Keep only letters, numbers, and basic punctuation
-	sentence = re.sub(r"[^a-z0-9!?',.]+", " ", sentence)
+    # remove parenthetical content (non-nested)
+    s = _re_paren.sub("", s)
+    s = _re_bracket.sub("", s)
 
-	# Separate punctuation from words (so "area!" -> "area !")
-	sentence = re.sub(r"([!?',.])", r" \1 ", sentence)
+    # expand contractions (we lowercased, so keys match)
+    s = expand_contractions(s)
 
-	# Normalize punctuation
-	sentence = re.sub(r"[.]{2,}", ".", sentence)             # "..." -> "."
-	sentence = re.sub(r"[!?]{2,}", lambda m: m.group(0)[0], sentence)  # "!!!" -> "!"
-	sentence = re.sub(r"\s+", " ", sentence).strip()         # collapse spaces
+    # keep only allowed characters
+    s = _re_keep.sub(" ", s)
 
-	return sentence
+    # normalize repeated punctuation BEFORE we split punctuation into tokens:
+    s = _re_multi_dot.sub(".", s)     # "..." -> "."
+    s = _re_multi_punc.sub(lambda m: m.group(0)[0], s)  # "?!?!!" -> "?" (first char)
 
-conversations = []
+    # separate punctuation from words (so "area!" -> "area !")
+    s = _re_punct_sep.sub(r" \1 ", s)
 
-with open("data/movie_conversations.txt", "r", encoding="utf-8", errors="ignore") as f:
-	lines = f.read().split("\n")
-	for line in lines:
-		parts = line.split(" +++$+++ ")
-		if len(parts) == 4:
-			conversations.append(ast.literal_eval(parts[3]))
+    # collapse spaces
+    s = _re_spaces.sub(" ", s).strip()
 
+    return s
 
-movie_lines = {}
+def word_count(sentence: str) -> int:
+    """Count "word" tokens (letters/digits only), ignores punctuation tokens."""
+    return len(_re_word.findall(sentence))
 
-with open("data/movie_lines.txt" , "r", encoding="utf-8", errors="ignore") as f:
-	lines = f.read().split("\n")
-	for line in lines:
-		parts = line.split(" +++$+++ ")
-		if len(parts) == 5:
-			movie_lines[parts[0]] = parts[4]
+def load_movie_lines(path: Path):
+    """
+    Return dict: lineID -> text
+    Uses maxsplit to avoid accidentally splitting the text if the separator appears in utterance.
+    """
+    movie_lines = {}
+    with open(path, "r", encoding="utf-8", errors="replace") as f:
+        for raw in f:
+            line = raw.rstrip("\n")
+            if not line:
+                continue
+            parts = line.split(" +++$+++ ", 4)  # expect 5 parts; limit splits
+            if len(parts) >= 5:
+                line_id = parts[0]
+                text = parts[4]
+                movie_lines[line_id] = text
+    return movie_lines
+
+def load_conversations(path: Path):
+    """
+    Return list of conversations (each is a list of lineIDs).
+    Uses maxsplit to isolate the list-of-utterances safely.
+    """
+    conversations = []
+    with open(path, "r", encoding="utf-8", errors="replace") as f:
+        for raw in f:
+            line = raw.rstrip("\n")
+            if not line:
+                continue
+            parts = line.split(" +++$+++ ", 3)
+            if len(parts) >= 4:
+                rhs = parts[3]
+                try:
+                    utterance_list = ast.literal_eval(rhs)
+                except Exception:
+                    # malformed conversation line — skip
+                    continue
+                if isinstance(utterance_list, list):
+                    conversations.append(utterance_list)
+    return conversations
+
+def build_dialog_pairs(movie_lines: dict, conversations: list, min_words=2, max_words=15):
+    dialogs = []
+    for conv in conversations:
+        # pair each utterance with the next (chronological)
+        for a, b in zip(conv, conv[1:]):
+            if a in movie_lines and b in movie_lines:
+                s1 = clean_sentence(movie_lines[a])
+                s2 = clean_sentence(movie_lines[b])
+                # count words ignoring punctuation tokens
+                if min_words <= word_count(s1) <= max_words and min_words <= word_count(s2) <= max_words:
+                    dialogs.append((s1, s2))
+    return dialogs
 
 def main():
     movie_lines = load_movie_lines(MOVIE_LINES)
@@ -133,3 +196,5 @@ def main():
             zf.writestr(OUTPUT_TXT, buf.getvalue())
     print(f"Produced {len(dialogs)} dialog pairs into {OUTPUT_ZIP} ({OUTPUT_TXT} inside)")
 
+if __name__ == "__main__":
+    main()
