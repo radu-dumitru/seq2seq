@@ -1,2 +1,7 @@
 myenv/
 **/__pycache__/
+data/idx2word.json
+data/word2idx.json
+data/model.npz
+data/movie_conversations.txt
+data/movie_lines.txt

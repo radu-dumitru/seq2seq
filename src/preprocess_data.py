@@ -27,6 +27,15 @@
 
 import ast
 import re
+from pathlib import Path
+import zipfile
+import io
+
+INPUT_DIR = Path("data")
+MOVIE_LINES = INPUT_DIR / "movie_lines.txt"
+MOVIE_CONVERSATIONS = INPUT_DIR / "movie_conversations.txt"
+OUTPUT_TXT = "dialogs.txt"
+OUTPUT_ZIP = INPUT_DIR / "dialogs.zip"
 
 CONTRACTIONS = {
     "i'm": "i am",
@@ -109,19 +118,18 @@ with open("data/movie_lines.txt" , "r", encoding="utf-8", errors="ignore") as f:
 		if len(parts) == 5:
 			movie_lines[parts[0]] = parts[4]
 
-dialogs = []
-
-for conversation in conversations:
-	for i in range(len(conversation) - 1):
-		if conversation[i] in movie_lines and conversation[i + 1] in movie_lines:
-			line1 = clean_sentence(movie_lines[conversation[i]])
-			line2 = clean_sentence(movie_lines[conversation[i + 1]])
-			
-			# Filter by length (2–15 words)
-			if (2 <= len(line1.split()) <= 15 and 2 <= len(line2.split()) <= 15):
-				dialogs.append((line1, line2))
-
-with open("data/dialogs.txt", "w", encoding="utf-8") as f:
-	for line1, line2 in dialogs:
-		f.write(line1 + '\t' + line2 + '\n')
+def main():
+    movie_lines = load_movie_lines(MOVIE_LINES)
+    conversations = load_conversations(MOVIE_CONVERSATIONS)
+    dialogs = build_dialog_pairs(movie_lines, conversations)
+    # write output as a zip file containing dialogs.txt
+    with zipfile.ZipFile(OUTPUT_ZIP, mode="w", compression=zipfile.ZIP_DEFLATED) as zf:
+        with io.StringIO() as buf:
+            for l1, l2 in dialogs:
+                buf.write(l1)
+                buf.write("\t")
+                buf.write(l2)
+                buf.write("\n")
+            zf.writestr(OUTPUT_TXT, buf.getvalue())
+    print(f"Produced {len(dialogs)} dialog pairs into {OUTPUT_ZIP} ({OUTPUT_TXT} inside)")
 
