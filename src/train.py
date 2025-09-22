@@ -131,4 +131,4 @@ for epoch in range(num_epochs):
             save_model_params(embedding, encoder, decoder, optimizer, step)
     
     print(f"Epoch {epoch+1} finished")
-    save_model_params(embedding, encoder, decoder)
+    save_model_params(embedding, encoder, decoder, optimizer, step)
