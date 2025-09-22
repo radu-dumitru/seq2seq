@@ -5,17 +5,7 @@ from vocab_builder import VocabBuilder
 import numpy as np
 from utils import tokenize, words_to_indices
 from constants import SOS_TOKEN, EOS_TOKEN
-
-def sample_with_temperature(p_t, temperature=1.0):
-    # flatten to 1D
-    p_t = p_t.ravel()
-
-    # apply temperature scaling
-    logits = np.log(p_t + 1e-8) / temperature
-    exp_logits = np.exp(logits - np.max(logits))  # subtract max for stability
-    probs = exp_logits / np.sum(exp_logits)
-
-    return np.random.choice(len(probs), p=probs)
+from beam_search import beam_search
 
 embedding_dim = 100
 hidden_size = 128
@@ -47,22 +37,5 @@ while True:
     hT = hs_enc[len(xs_enc) - 1]
     cT = cs_enc[len(xs_enc) - 1]
 
-    token_idx = word2idx[SOS_TOKEN]
-    response = []
-    max_response_len = 50
-
-    for _ in range(max_response_len):
-        hT, cT, p_t = decoder.forward_step(token_idx, hT, cT)
-
-        # ix = np.argmax(p_t)
-        ix = sample_with_temperature(p_t)
-
-        generated_word = idx2word[ix]
-
-        if generated_word == EOS_TOKEN:
-            break
-
-        response.append(generated_word)
-        token_idx = ix
-
+    response = beam_search(decoder, hT, cT, word2idx, idx2word)
     print("Bot:", " ".join(response))
