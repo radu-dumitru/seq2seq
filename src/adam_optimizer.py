@@ -8,6 +8,7 @@ class Adam:
         self.epsilon = epsilon
         self.m = {}
         self.v = {}
+        self.params = []  # list of (name, ref_to_array, ref_to_grad)
 
     def _init_state(self, name, param):
         if name not in self.m:
@@ -41,3 +42,33 @@ class Adam:
             embedding[idx] -= self.learning_rate * m_hat / (np.sqrt(v_hat) + self.epsilon)
 
         return embedding
+
+    def add_parameters(self, params):
+        # params is list of (name, data_ref, grad_ref)
+        self.params = list(params)
+
+    def step(self, t):
+        for name, data, grad in self.params:
+            if grad is None:
+                continue
+            self.update(name, data, grad, t)
+
+    def state_dict(self):
+        # shallow copy of optimizer state dicts
+        return {
+            "m": {k: v.copy() for k, v in self.m.items()},
+            "v": {k: v.copy() for k, v in self.v.items()},
+            "learning_rate": self.learning_rate,
+            "beta1": self.beta1,
+            "beta2": self.beta2,
+            "epsilon": self.epsilon,
+        }
+
+    def load_state_dict(self, state):
+        self.learning_rate = state.get("learning_rate", self.learning_rate)
+        self.beta1 = state.get("beta1", self.beta1)
+        self.beta2 = state.get("beta2", self.beta2)
+        self.epsilon = state.get("epsilon", self.epsilon)
+        # in-place replace moment estimates
+        self.m = {k: v.copy() for k, v in state.get("m", {}).items()}
+        self.v = {k: v.copy() for k, v in state.get("v", {}).items()}

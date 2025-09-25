@@ -16,10 +16,21 @@ class DecoderLSTM:
 
         self.Why = np.random.randn(vocab_size, hidden_size)*0.01
         self.by = np.zeros((vocab_size, 1))
-            
+        
+        # internal cache for backward
+        self._cache = None
+        
+        self.dWx = np.zeros_like(self.Wx)
+        self.dWh = np.zeros_like(self.Wh)
+        self.db = np.zeros_like(self.b)
+        self.dWhy = np.zeros_like(self.Why)
+        self.dby = np.zeros_like(self.by)
+        self.dE = np.zeros_like(self.embedding)
 
-    def forward(self, inputs, hprev, cprev):
-        xs, hs, cs, os, ys, ps = {}, {}, {}, {}, {}, {}
+    def forward(self, inputs, state):
+        hprev, cprev = state
+        xs, hs, cs, os, ys = {}, {}, {}, {}, {}
+        ps = {}
         zs = {}  # pre-activations for gates
         hs[-1], cs[-1] = np.copy(hprev), np.copy(cprev)
 
@@ -43,7 +54,13 @@ class DecoderLSTM:
             ys[t] = y
             ps[t] = softmax(y)
 
-        return xs, hs, cs, os, zs, ys, ps
+        # save cache for backward
+        self._cache = {
+            "xs": xs, "hs": hs, "cs": cs, "os": os, "zs": zs,
+            "ys": ys, "ps": ps, "inputs": inputs
+        }
+
+        return (hs[len(xs) - 1], cs[len(xs) - 1])
 
     def forward_step(self, token_idx, h_prev, c_prev):
         x_t = self.embedding[token_idx].reshape(-1, 1)
@@ -64,7 +81,16 @@ class DecoderLSTM:
         return h_t, c_t, p_t
 
 
-    def backward(self, xs, hs, cs, os, zs, ys, ps, targets, inputs):
+    def backward(self, targets):
+        # consume internal cache
+        xs = self._cache["xs"]
+        hs = self._cache["hs"]
+        cs = self._cache["cs"]
+        os = self._cache["os"]
+        zs = self._cache["zs"]
+        ys = self._cache["ys"]
+        ps = self._cache["ps"]
+        inputs = self._cache["inputs"]
         dWx, dWh, db = np.zeros_like(self.Wx), np.zeros_like(self.Wh), np.zeros_like(self.b)
         dWhy, dby = np.zeros_like(self.Why), np.zeros_like(self.by)
         dE = np.zeros_like(self.embedding)
@@ -114,5 +140,34 @@ class DecoderLSTM:
             # embedding gradient update
             dE[inputs[t]] += np.dot(self.Wx.T, dz).ravel()
 
-        return dWx, dWh, db, dWhy, dby, dE, dhnext, dcnext, loss
+        self.dWx, self.dWh, self.db = dWx, dWh, db
+        self.dWhy, self.dby = dWhy, dby
+        self.dE = dE
+        return dhnext, dcnext, loss
+
+    def parameters(self):
+        return [
+            ("decoder_Wx", self.Wx, self.dWx),
+            ("decoder_Wh", self.Wh, self.dWh),
+            ("decoder_b",  self.b,  self.db),
+            ("decoder_Why", self.Why, self.dWhy),
+            ("decoder_by",  self.by,  self.dby),
+        ]
+
+    def state_dict(self):
+        return {
+            "Wx": self.Wx.copy(),
+            "Wh": self.Wh.copy(),
+            "b": self.b.copy(),
+            "Why": self.Why.copy(),
+            "by": self.by.copy(),
+        }
+
+    def load_state_dict(self, state):
+        # in-place copy to preserve references
+        self.Wx[...] = state["Wx"]
+        self.Wh[...] = state["Wh"]
+        self.b[...] = state["b"]
+        self.Why[...] = state["Why"]
+        self.by[...] = state["by"]
         

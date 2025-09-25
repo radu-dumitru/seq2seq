@@ -12,8 +12,17 @@ class EncoderLSTM:
         self.Wx = np.random.randn(4*hidden_size, embedding_dim)*0.01
         self.Wh = np.random.randn(4*hidden_size, hidden_size)*0.01
         self.b = np.zeros((4*hidden_size, 1))
+        
+        # internal cache for backward (PyTorch-like: forward saves for backward)
+        self._cache = None
+        
+        self.dWx = np.zeros_like(self.Wx)
+        self.dWh = np.zeros_like(self.Wh)
+        self.db = np.zeros_like(self.b)
+        self.dE = np.zeros_like(self.embedding)
             
-    def forward(self, inputs, hprev, cprev):
+    def forward(self, inputs, state):
+        hprev, cprev = state
         xs, hs, cs, os = {}, {}, {}, {}
         zs = {}  # pre-activations for gates
         hs[-1], cs[-1] = np.copy(hprev), np.copy(cprev)
@@ -34,9 +43,22 @@ class EncoderLSTM:
             hs[t] = o * np.tanh(cs[t])
             os[t] = o
 
-        return xs, hs, cs, os, zs
+        # save cache for backward
+        self._cache = {
+            "xs": xs, "hs": hs, "cs": cs, "os": os, "zs": zs,
+            "inputs": inputs
+        }
 
-    def backward(self, xs, hs, cs, os, zs, dhnext, dcnext, inputs):
+        return (hs[len(xs) - 1], cs[len(xs) - 1])
+
+    def backward(self, dhnext, dcnext):
+        # consume internal cache
+        xs = self._cache["xs"]
+        hs = self._cache["hs"]
+        cs = self._cache["cs"]
+        os = self._cache["os"]
+        zs = self._cache["zs"]
+        inputs = self._cache["inputs"]
         dWx, dWh, db = np.zeros_like(self.Wx), np.zeros_like(self.Wh), np.zeros_like(self.b)
         dE = np.zeros_like(self.embedding)
 
@@ -74,5 +96,25 @@ class EncoderLSTM:
             # embedding gradient update
             dE[inputs[t]] += np.dot(self.Wx.T, dz).ravel()
 
-        return dWx, dWh, db, dE, dhnext, dcnext
+        self.dWx, self.dWh, self.db, self.dE = dWx, dWh, db, dE
+
+    def parameters(self):
+        return [
+            ("encoder_Wx", self.Wx, self.dWx),
+            ("encoder_Wh", self.Wh, self.dWh),
+            ("encoder_b",  self.b,  self.db),
+        ]
+
+    def state_dict(self):
+        return {
+            "Wx": self.Wx.copy(),
+            "Wh": self.Wh.copy(),
+            "b": self.b.copy(),
+        }
+
+    def load_state_dict(self, state):
+        # in-place copy to preserve references
+        self.Wx[...] = state["Wx"]
+        self.Wh[...] = state["Wh"]
+        self.b[...] = state["b"]
 
