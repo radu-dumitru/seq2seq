@@ -13,7 +13,7 @@ class EncoderLSTM:
         self.Wh = np.random.randn(4*hidden_size, hidden_size)*0.01
         self.b = np.zeros((4*hidden_size, 1))
         
-        # internal cache for backward (PyTorch-like: forward saves for backward)
+        # internal cache for backward
         self._cache = None
         
         self.dWx = np.zeros_like(self.Wx)
@@ -43,7 +43,6 @@ class EncoderLSTM:
             hs[t] = o * np.tanh(cs[t])
             os[t] = o
 
-        # save cache for backward
         self._cache = {
             "xs": xs, "hs": hs, "cs": cs, "os": os, "zs": zs,
             "inputs": inputs
@@ -58,7 +57,7 @@ class EncoderLSTM:
         os = self._cache["os"]
         zs = self._cache["zs"]
         inputs = self._cache["inputs"]
-        # in-place grads to keep optimizer references valid
+
         self.dWx.fill(0.0)
         self.dWh.fill(0.0)
         self.db.fill(0.0)
@@ -113,7 +112,6 @@ class EncoderLSTM:
         }
 
     def load_state_dict(self, state):
-        # in-place copy to preserve references
         self.Wx[...] = state["Wx"]
         self.Wh[...] = state["Wh"]
         self.b[...] = state["b"]

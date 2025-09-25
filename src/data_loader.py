@@ -1,6 +1,5 @@
 import zipfile
 
-
 class DataLoader:
     def __init__(self):
         self.zip_path = "data/dialogs.zip"

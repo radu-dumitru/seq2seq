@@ -9,5 +9,3 @@ class HParams:
     learning_rate: float = 1e-2
     num_epochs: int = 10
     checkpoint_interval: int = 100
-
-

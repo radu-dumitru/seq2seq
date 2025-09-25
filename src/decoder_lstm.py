@@ -54,7 +54,6 @@ class DecoderLSTM:
             ys[t] = y
             ps[t] = softmax(y)
 
-        # save cache for backward
         self._cache = {
             "xs": xs, "hs": hs, "cs": cs, "os": os, "zs": zs,
             "ys": ys, "ps": ps, "inputs": inputs
@@ -82,7 +81,6 @@ class DecoderLSTM:
 
 
     def backward(self, targets):
-        # consume internal cache
         xs = self._cache["xs"]
         hs = self._cache["hs"]
         cs = self._cache["cs"]
@@ -91,7 +89,7 @@ class DecoderLSTM:
         ys = self._cache["ys"]
         ps = self._cache["ps"]
         inputs = self._cache["inputs"]
-        # in-place grads to keep optimizer references valid
+
         self.dWx.fill(0.0)
         self.dWh.fill(0.0)
         self.db.fill(0.0)
@@ -165,7 +163,6 @@ class DecoderLSTM:
         }
 
     def load_state_dict(self, state):
-        # in-place copy to preserve references
         self.Wx[...] = state["Wx"]
         self.Wh[...] = state["Wh"]
         self.b[...] = state["b"]
