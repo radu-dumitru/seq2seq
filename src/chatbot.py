@@ -1,6 +1,5 @@
 from encoder_lstm import EncoderLSTM
 from decoder_lstm import DecoderLSTM
-from data_loader import DataLoader
 from vocab_builder import VocabBuilder
 import numpy as np
 from utils import tokenize, words_to_indices
@@ -9,12 +8,8 @@ from beam_search import beam_search
 from hyperparams import HParams
 
 hp = HParams()
-
-data_loader = DataLoader()
-data = data_loader.load_data(hp.max_number_lines)
-
 vocab_builder = VocabBuilder()
-word2idx, idx2word = vocab_builder.build_vocab(data, hp.max_vocab_size)
+word2idx, idx2word = vocab_builder.load_vocab()
 vocab_size = len(word2idx)
 
 params = np.load("data/model.npz", allow_pickle=True)

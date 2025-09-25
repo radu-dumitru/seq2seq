@@ -52,15 +52,17 @@ class EncoderLSTM:
         return (hs[len(xs) - 1], cs[len(xs) - 1])
 
     def backward(self, dhnext, dcnext):
-        # consume internal cache
         xs = self._cache["xs"]
         hs = self._cache["hs"]
         cs = self._cache["cs"]
         os = self._cache["os"]
         zs = self._cache["zs"]
         inputs = self._cache["inputs"]
-        dWx, dWh, db = np.zeros_like(self.Wx), np.zeros_like(self.Wh), np.zeros_like(self.b)
-        dE = np.zeros_like(self.embedding)
+        # in-place grads to keep optimizer references valid
+        self.dWx.fill(0.0)
+        self.dWh.fill(0.0)
+        self.db.fill(0.0)
+        self.dE.fill(0.0)
 
         for t in reversed(range(len(xs))):
             
@@ -86,17 +88,15 @@ class EncoderLSTM:
 
             dz = np.vstack((di_raw, df_raw, do_raw, dg_raw))
 
-            dWx += np.dot(dz, xs[t].T)
-            dWh += np.dot(dz, hs[t-1].T)
-            db += dz
+            self.dWx += np.dot(dz, xs[t].T)
+            self.dWh += np.dot(dz, hs[t-1].T)
+            self.db += dz
 
             dhnext = np.dot(self.Wh.T, dz)
             dcnext = f * dc
 
             # embedding gradient update
-            dE[inputs[t]] += np.dot(self.Wx.T, dz).ravel()
-
-        self.dWx, self.dWh, self.db, self.dE = dWx, dWh, db, dE
+            self.dE[inputs[t]] += np.dot(self.Wx.T, dz).ravel()
 
     def parameters(self):
         return [

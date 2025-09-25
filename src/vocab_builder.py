@@ -50,3 +50,13 @@ class VocabBuilder:
         print("Sample vocab:", list(word2idx.items())[:10])
 
         return (word2idx, idx2word)
+
+    def load_vocab(self):
+        if os.path.exists(self.word2idx_file) and os.path.exists(self.idx2word_file):
+            with open(self.word2idx_file, "r", encoding="utf-8") as f:
+                word2idx = json.load(f)
+            with open(self.idx2word_file, "r", encoding="utf-8") as f:
+                idx2word = {int(k): v for k, v in json.load(f).items()}
+            return word2idx, idx2word
+        else:
+            raise FileNotFoundError("Vocab files not found. Train first to build and save vocabulary.")

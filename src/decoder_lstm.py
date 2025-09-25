@@ -91,9 +91,13 @@ class DecoderLSTM:
         ys = self._cache["ys"]
         ps = self._cache["ps"]
         inputs = self._cache["inputs"]
-        dWx, dWh, db = np.zeros_like(self.Wx), np.zeros_like(self.Wh), np.zeros_like(self.b)
-        dWhy, dby = np.zeros_like(self.Why), np.zeros_like(self.by)
-        dE = np.zeros_like(self.embedding)
+        # in-place grads to keep optimizer references valid
+        self.dWx.fill(0.0)
+        self.dWh.fill(0.0)
+        self.db.fill(0.0)
+        self.dWhy.fill(0.0)
+        self.dby.fill(0.0)
+        self.dE.fill(0.0)
 
         dhnext = np.zeros((self.hidden_size, 1))
         dcnext = np.zeros((self.hidden_size, 1))
@@ -105,8 +109,8 @@ class DecoderLSTM:
             loss -= np.log(max(ps[t][target_idx, 0], 1e-12))
             dy[target_idx, 0] -= 1.0
             
-            dWhy += np.dot(dy, hs[t].T)
-            dby += dy
+            self.dWhy += np.dot(dy, hs[t].T)
+            self.dby += dy
 
             dh = np.dot(self.Why.T, dy) + dhnext
             dc = dcnext + dh * os[t] * (1 - np.tanh(cs[t])**2)
@@ -130,19 +134,16 @@ class DecoderLSTM:
 
             dz = np.vstack((di_raw, df_raw, do_raw, dg_raw))
 
-            dWx += np.dot(dz, xs[t].T)
-            dWh += np.dot(dz, hs[t-1].T)
-            db += dz
+            self.dWx += np.dot(dz, xs[t].T)
+            self.dWh += np.dot(dz, hs[t-1].T)
+            self.db += dz
 
             dhnext = np.dot(self.Wh.T, dz)
             dcnext = f * dc
 
             # embedding gradient update
-            dE[inputs[t]] += np.dot(self.Wx.T, dz).ravel()
+            self.dE[inputs[t]] += np.dot(self.Wx.T, dz).ravel()
 
-        self.dWx, self.dWh, self.db = dWx, dWh, db
-        self.dWhy, self.dby = dWhy, dby
-        self.dE = dE
         return dhnext, dcnext, loss
 
     def parameters(self):
