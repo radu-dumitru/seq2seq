@@ -2,18 +2,18 @@ from encoder_lstm import EncoderLSTM
 from decoder_lstm import DecoderLSTM
 from hyperparams import HParams
 from adam_optimizer import Adam
-from data_builder import DataBuilder
+from data_loader import DataLoader
 from utils import clip_grad_norm_, save_model_params, load_model_params
 import numpy as np
 
 hp = HParams()
 step = 0
 
-data_builder = DataBuilder()
-X, Y = data_builder.generate_large_dataset()
-vocab_size = len(data_builder.word2idx)
+data_loader = DataLoader()
+X, Y = data_loader.load_data()
+vocab_size = len(data_loader.word2idx)
 
-embedding = np.random.randn(len(data_builder.word2idx), hp.embedding_dim) * 0.01
+embedding = np.random.randn(len(data_loader.word2idx), hp.embedding_dim) * 0.01
 
 optimizer = Adam(hp.learning_rate)
 

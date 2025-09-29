@@ -1,0 +1,1585 @@
+hello	hi
+hi	hi
+hey	hi
+yo	hi
+good morning	hi
+good afternoon	hi
+good evening	hi
+how do you do	hi
+summarize the shy rabbit is sleeping in the field	the rabbit is sleeping
+summarize the smart student is writing in the classroom	the student is writing
+summarize the tall man is working in the park	the man is working
+summarize the friendly duck is sleeping in the field	the duck is sleeping
+summarize the timid cow is running in the field	the cow	is running
+summarize the smart woman is thinking at the beach	the woman is thinking
+summarize the agreable engineer is speaking in the garden	the engineer is speaking
+summarize the tall child is eating at the restaurant	the child is eating
+summarize the young actress is writing in the classroom	the actress is writing
+summarize the agile dog is exploring on the farm	the dog is exploring
+summarize the young artist is eating in the garden	the artist is eating
+summarize the agreable child is speaking in the garden	the child is speaking
+summarize the tall student is singing in the garden	the student is singing
+summarize the young woman is writing at the beach	the woman is writing
+summarize the young teacher is studying in the classroom	the teacher is studying
+summarize the beautiful actress is writing in the garden	the actress is writing
+summarize the young adult is speaking in the classroom	the adult is speaking
+summarize the kind painter is studying in the classroom	the painter is studying
+summarize the polite teacher is speaking in the classroom	the teacher is speaking
+summarize the happy woman is drawing in the park	the woman is drawing
+summarize the ambitious man is speaking in the garden	the man is speaking
+summarize the smart artist is thinking at the restaurant	the artist is thinking
+summarize the smart actor is laughing at the restaurant	the actor is laughing
+summarize the beautiful artist is laughing in the garden	the artist is laughing
+summarize the timid rabbit is playing in the field	the rabbit is playing
+summarize the calm cow is exploring in the field	the cow is exploring
+summarize the timid chicken is eating in the barn	the chicken is eating
+summarize the young actor is singing in the garden	the actor is singing
+summarize the calm professor is speaking in the garden	the professor is speaking
+summarize the beautiful teacher is laughing at home	the teacher is laughing
+summarize the agreable writer is reading in the garden	the writer is reading
+summarize the playful duck is exploring on the farm	the duck is exploring
+summarize the kind child is singing in the classroom	the child is singing
+summarize the agile duck is playing in the field	the duck is playing
+summarize the kind student is singing in the park	the student is singing
+summarize the tall actress is working at the restaurant	the actress is working
+summarize the happy actress is studying at home	the actress is studying
+summarize the calm boy is writing in the park	the boy is writing
+summarize the calm horse is eating in the barn	the horse is eating
+summarize the tall student is working in the garden	the student is working
+summarize the sleepy dog is exploring on the farm	the dog is exploring
+summarize the polite painter is singing at the beach	the painter is singing
+summarize the kind man is singing in the park	the man is singing
+summarize the polite engineer is studying in the garden	the engineer is studying
+summarize the kind girl is reading in the garden	the girl is reading
+summarize the sleepy chicken is drinking in the field	the chicken is drinking
+summarize the playful cow is eating on the farm	the cow is eating
+summarize the agreable engineer is thinking at home	the engineer is thinking
+summarize the beautiful engineer is singing at the beach	the engineer is singing
+summarize the sleepy dog is eating in the field	the dog is eating
+summarize the elegant horse is eating on the farm	the horse is eating
+summarize the calm dog is sleeping in the field	the dog is sleeping
+summarize the fast chicken is exploring in the field	the chicken is exploring
+summarize the calm sheep is sleeping in the barn	the sheep is sleeping
+summarize the happy teacher is drawing at the restaurant	the teacher is drawing
+summarize the fast rabbit is resting in the field	the rabbit is resting
+summarize the agreable teacher is writing in the garden	the teacher is writing
+summarize the sleepy cat is playing in the field	the cat is playing
+summarize the beautiful cat is sleeping in the barn	the cat is sleeping
+summarize the tall professor is writing at the beach	the professor is writing
+summarize the kind adult is laughing in the garden	the adult is laughing
+summarize the agreable student is thinking in the park	the student is thinking
+summarize the young boy is studying in the classroom	the boy is studying
+summarize the fast cat is eating in the field	the cat is eating
+summarize the kind teacher is eating in the classroom	the teacher is eating
+summarize the calm duck is exploring on the farm	the duck is exploring
+summarize the happy student is singing at home	the student is singing
+summarize the agile rabbit is resting on the farm	the rabbit is resting
+summarize the agreable boy is speaking at the beach	the boy is speaking
+summarize the beautiful writer is thinking in the classroom	the writer is thinking
+summarize the smart man is working at home	the man is working
+summarize the calm boy is eating in the park	the boy is eating
+summarize the young artist is laughing at home	the artist is laughing
+summarize the elegant horse is eating on the farm	the horse is eating
+summarize the young actress is writing in the park	the actress is writing
+summarize the timid duck is drinking in the barn	the duck is drinking
+summarize the shy turkey is resting in the barn	the turkey is resting
+summarize the shy cat is resting on the farm	the cat is resting
+summarize the young engineer is laughing at home	the engineer is laughing
+summarize the happy actor is eating in the garden	the actor is eating
+summarize the elegant sheep is drinking in the barn	the sheep is drinking
+summarize the calm dog is running on the farm	the dog is running
+summarize the tall actress is drawing at the restaurant	the actress is drawing
+summarize the elegant rabbit is running in the field	the rabbit is running
+summarize the kind woman is eating at home	the woman is eating
+summarize the tall woman is studying in the garden	the woman is studying
+summarize the beautiful dog is exploring on the farm	the dog is exploring
+summarize the ambitious child is reading in the park	the child is reading
+summarize the beautiful dog is playing on the farm	the dog is playing
+summarize the polite boy is thinking at home	the boy is thinking
+summarize the polite artist is singing at the restaurant	the artist is singing
+summarize the calm girl is drawing at the beach	the girl is drawing
+summarize the sleepy cow is drinking in the field	the cow is drinking
+summarize the agile dog is drinking in the barn	the dog is drinking
+summarize the calm artist is writing in the park	the artist is writing
+summarize the tall woman is singing in the garden	the woman is singing
+summarize the happy man is reading in the classroom	the man is reading
+summarize the ambitious student is laughing at home	the student is laughing
+summarize the kind teacher is reading in the classroom	the teacher is reading
+summarize the agile dog is playing on the farm	the dog is playing
+summarize the ambitious painter is studying in the park	the painter is studying
+summarize the ambitious professor is eating in the classroom	the professor is eating
+summarize the fast cow is drinking on the farm	the cow is drinking
+summarize the calm rabbit is playing in the field	the rabbit is playing
+summarize the friendly turkey is sleeping on the farm	the turkey is sleeping
+summarize the polite man is thinking at home	the man is thinking
+summarize the young actor is working at the beach	the actor is working
+summarize the smart painter is thinking in the park	the painter is thinking
+summarize the young boy is speaking at the restaurant	the boy is speaking
+summarize the calm dog is drinking in the barn	the dog is drinking
+summarize the happy woman is drawing at home	the woman is drawing
+summarize the playful chicken is exploring in the barn	the chicken is exploring
+summarize the beautiful professor is eating at the beach	the professor is eating
+summarize the elegant duck is drinking in the field	the duck is drinking
+summarize the timid chicken is exploring in the barn	the chicken is exploring
+summarize the agreable adult is singing at the restaurant	the adult is singing
+summarize the kind actor is singing at the restaurant	the actor is singing
+summarize the ambitious actor is reading at the beach	the actor is reading
+summarize the ambitious man is drawing at the restaurant	the man is drawing
+summarize the ambitious painter is studying in the garden	the painter is studying
+summarize the kind girl is speaking in the park	the girl is speaking
+summarize the shy cat is drinking in the barn	the cat is drinking
+summarize the friendly chicken is resting on the farm	the chicken is resting
+summarize the agile duck is sleeping in the barn	the duck is sleeping
+summarize the calm cow is exploring in the barn	the cow is exploring
+summarize the calm artist is drawing in the garden	the artist is drawing
+summarize the smart engineer is drawing in the classroom	the engineer is drawing
+summarize the kind actress is working at the restaurant	the actress is working
+summarize the tall boy is reading in the park	the boy is reading
+summarize the shy dog is drinking in the field	the dog is drinking
+summarize the fast turkey is exploring on the farm	the turkey is exploring
+summarize the happy actor is working at home	the actor is working
+summarize the beautiful writer is reading in the park	the writer is reading
+summarize the polite adult is thinking at home	the adult is thinking
+summarize the beautiful teacher is eating at home	the teacher is eating
+summarize the calm adult is thinking in the garden	the adult is thinking
+summarize the polite engineer is laughing at the restaurant	the engineer is laughing
+summarize the elegant rabbit is exploring in the barn	the rabbit is exploring
+summarize the polite boy is studying at home	the boy is studying
+summarize the beautiful turkey is exploring on the farm	the turkey is exploring
+summarize the smart professor is drawing in the garden	the professor is drawing
+summarize the beautiful dog is drinking in the field	the dog is drinking
+summarize the ambitious student is speaking in the park	the student is speaking
+summarize the calm woman is eating at the restaurant	the woman is eating
+summarize the calm dog is resting in the barn	the dog is resting
+summarize the agreable student is eating in the park	the student is eating
+summarize the friendly duck is resting on the farm	the duck is resting
+summarize the happy woman is studying at the restaurant	the woman is studying
+summarize the tall actress is thinking in the classroom	the actress is thinking
+summarize the young engineer is studying at the restaurant	the engineer is studying
+summarize the polite engineer is singing in the garden	the engineer is singing
+summarize the happy actress is speaking in the classroom	the actress is speaking
+summarize the ambitious professor is singing in the park	the professor is singing
+summarize the beautiful horse is resting on the farm	the horse is resting
+summarize the ambitious girl is speaking at home	the girl is speaking
+summarize the beautiful engineer is reading in the park	the engineer is reading
+summarize the timid cat is exploring in the field	the cat is exploring
+summarize the calm professor is eating at the beach	the professor is eating
+summarize the agreable engineer is working in the park	the engineer is working
+summarize the calm man is reading at home	the man is reading
+summarize the smart woman is singing in the classroom	the woman is singing
+summarize the tall adult is reading at the restaurant	the adult is reading
+summarize the friendly cat is exploring on the farm	the cat is exploring
+summarize the young child is thinking in the park	the child is thinking
+summarize the agreable actor is thinking in the classroom	the actor is thinking
+summarize the beautiful student is writing at the beach	the student is writing
+summarize the tall professor is laughing in the park	the professor is laughing
+summarize the agreable writer is eating in the park	the writer is eating
+summarize the agile duck is exploring in the field	the duck is exploring
+summarize the timid chicken is resting in the field	the chicken is resting
+summarize the young woman is speaking at the restaurant	the woman is speaking
+summarize the beautiful cow is resting in the barn	the cow is resting
+summarize the young professor is working in the classroom	the professor is working
+summarize the polite boy is working at home	the boy is working
+summarize the smart writer is singing at the restaurant	the writer is singing
+summarize the kind woman is speaking in the park	the woman is speaking
+summarize the ambitious professor is writing in the classroom	the professor is writing
+summarize the agile cow is playing in the field	the cow is playing
+summarize the beautiful writer is reading in the classroom	the writer is reading
+summarize the polite engineer is writing in the classroom	the engineer is writing
+summarize the agreable woman is laughing at home	the woman is laughing
+summarize the calm sheep is sleeping in the barn	the sheep is sleeping
+summarize the young actor is writing in the park	the actor is writing
+summarize the ambitious professor is writing in the garden	the professor is writing
+summarize the ambitious painter is thinking at home	the painter is thinking
+summarize the beautiful cow is playing on the farm	the cow is playing
+summarize the happy actor is speaking in the classroom	the actor is speaking
+summarize the elegant dog is playing on the farm	the dog is playing
+summarize the happy man is reading in the classroom	the man is reading
+summarize the calm horse is drinking in the field	the horse is drinking
+summarize the beautiful dog is sleeping in the barn	the dog is sleeping
+summarize the tall painter is drawing in the park	the painter is drawing
+summarize the timid chicken is exploring in the field	the chicken is exploring
+summarize the young child is thinking at home	the child is thinking
+summarize the calm horse is exploring on the farm	the horse is exploring
+summarize the beautiful rabbit is exploring in the barn	the rabbit is exploring
+summarize the elegant rabbit is drinking in the field	the rabbit is drinking
+summarize the fast chicken is resting on the farm	the chicken is resting
+summarize the ambitious adult is speaking in the classroom	the adult is speaking
+summarize the calm cat is eating in the field	the cat is eating
+summarize the calm teacher is thinking at home	the teacher is thinking
+summarize the beautiful cat is playing in the field	the cat is playing
+summarize the tall boy is speaking in the garden	the boy is speaking
+summarize the kind student is thinking in the park	the student is thinking
+summarize the agile horse is exploring in the barn	the horse is exploring
+summarize the ambitious writer is working at home	the writer is working
+summarize the calm boy is eating in the park	the boy is eating
+summarize the young man is singing at the restaurant	the man is singing
+summarize the calm teacher is working in the garden	the teacher is working
+summarize the playful turkey is eating on the farm	the turkey is eating
+summarize the ambitious professor is speaking in the park	the professor is speaking
+summarize the happy artist is writing in the classroom	the artist is writing
+summarize the agreable teacher is drawing in the classroom	the teacher is drawing
+summarize the elegant cat is exploring in the barn	the cat is exploring
+summarize the beautiful woman is writing in the classroom	the woman is writing
+summarize the tall adult is reading at home	the adult is reading
+summarize the sleepy duck is sleeping on the farm	the duck is sleeping
+summarize the agreable adult is laughing at the beach	the adult is laughing
+summarize the agile chicken is running in the field	the chicken is running
+summarize the happy child is speaking at home	the child is speaking
+summarize the beautiful teacher is speaking at the beach	the teacher is speaking
+summarize the kind painter is laughing at the restaurant	the painter is laughing
+summarize the sleepy chicken is eating in the barn	the chicken is eating
+summarize the polite writer is writing at home	the writer is writing
+summarize the tall painter is singing at the restaurant	the painter is singing
+summarize the kind woman is drawing at home	the woman is drawing
+summarize the agreable boy is working at the beach	the boy is working
+summarize the beautiful turkey is playing in the barn	the turkey is playing
+summarize the beautiful duck is sleeping on the farm	the duck is sleeping
+summarize the happy student is working in the classroom	the student is working
+summarize the ambitious girl is writing in the park	the girl is writing
+summarize the young woman is reading in the garden	the woman is reading
+summarize the playful duck is eating on the farm	the duck is eating
+summarize the young engineer is reading in the classroom	the engineer is reading
+summarize the friendly horse is running on the farm	the horse is running
+summarize the tall man is reading at the beach	the man is reading
+summarize the happy child is writing in the classroom	the child is writing
+summarize the smart actress is thinking in the park	the actress is thinking
+summarize the friendly cat is playing on the farm	the cat is playing
+summarize the shy chicken is sleeping in the barn	the chicken is sleeping
+summarize the kind man is working at the beach	the man is working
+summarize the kind writer is reading in the classroom	the writer is reading
+summarize the sleepy cow is sleeping in the field	the cow is sleeping
+summarize the agile dog is exploring on the farm	the dog is exploring
+summarize the happy student is speaking at home	the student is speaking
+summarize the smart student is speaking in the classroom	the student is speaking
+summarize the shy cat is resting on the farm	the cat is resting
+summarize the tall engineer is speaking in the garden	the engineer is speaking
+summarize the fast chicken is exploring in the field	the chicken is exploring
+summarize the young adult is singing in the classroom	the adult is singing
+summarize the agreable writer is laughing at the beach	the writer is laughing
+summarize the beautiful chicken is exploring in the field	the chicken is exploring
+summarize the agile horse is drinking in the field	the horse is drinking
+summarize the agreable adult is laughing in the park	the adult is laughing
+summarize the agile cow is drinking in the barn	the cow is drinking
+summarize the happy actress is thinking in the classroom	the actress is thinking
+summarize the ambitious child is laughing in the classroom	the child is laughing
+summarize the beautiful professor is working at the restaurant	the professor is working
+summarize the ambitious woman is studying in the park	the woman is studying
+summarize the young girl is reading at home	the girl is reading
+summarize the fast cat is resting in the barn	the cat is resting
+summarize the young boy is eating in the park	the boy is eating
+summarize the agreable writer is singing at the beach	the writer is singing
+summarize the young child is laughing in the garden	the child is laughing
+summarize the ambitious actor is laughing at the beach	the actor is laughing
+summarize the happy woman is reading in the garden	the woman is reading
+summarize the ambitious artist is singing in the park	the artist is singing
+summarize the sleepy cow is playing in the field	the cow is playing
+summarize the happy actress is drawing in the garden	the actress is drawing
+summarize the kind writer is reading in the park	the writer is reading
+summarize the agile chicken is exploring on the farm	the chicken is exploring
+summarize the timid sheep is exploring in the field	the sheep is exploring
+summarize the smart girl is writing in the classroom	the girl is writing
+summarize the beautiful rabbit is drinking in the barn	the rabbit is drinking
+summarize the smart teacher is drawing at home	the teacher is drawing
+summarize the sleepy rabbit is exploring in the field	the rabbit is exploring
+summarize the agile cow is exploring on the farm	the cow is exploring
+summarize the young teacher is drawing at the restaurant	the teacher is drawing
+summarize the polite boy is drawing in the park	the boy is drawing
+summarize the calm actor is drawing at home	the actor is drawing
+summarize the ambitious writer is drawing at home	the writer is drawing
+summarize the agreable painter is speaking in the park	the painter is speaking
+summarize the tall adult is eating in the classroom	the adult is eating
+summarize the ambitious child is singing in the park	the child is singing
+summarize the tall adult is drawing at the beach	the adult is drawing
+summarize the polite adult is drawing in the garden	the adult is drawing
+summarize the beautiful rabbit is drinking on the farm	the rabbit is drinking
+summarize the sleepy rabbit is exploring in the barn	the rabbit is exploring
+summarize the kind boy is drawing at the beach	the boy is drawing
+summarize the polite actor is drawing at home	the actor is drawing
+summarize the polite actor is speaking in the garden	the actor is speaking
+summarize the elegant cow is running in the field	the cow is running
+summarize the beautiful turkey is exploring on the farm	the turkey is exploring
+summarize the ambitious man is eating in the classroom	the man is eating
+summarize the calm student is eating in the classroom	the student is eating
+summarize the smart child is eating in the park	the child is eating
+summarize the sleepy dog is exploring on the farm	the dog is exploring
+summarize the tall boy is working at home	the boy is working
+summarize the agile duck is eating on the farm	the duck is eating
+summarize the beautiful student is reading in the park	the student is reading
+summarize the shy cat is eating in the field	the cat is eating
+summarize the calm engineer is working in the classroom	the engineer is working
+summarize the calm dog is drinking on the farm	the dog is drinking
+summarize the smart boy is drawing at home	the boy is drawing
+summarize the agile chicken is exploring in the field	the chicken is exploring
+summarize the fast dog is resting on the farm	the dog is resting
+summarize the fast cow is eating in the field	the cow is eating
+summarize the shy rabbit is playing in the field	the rabbit is playing
+summarize the agile rabbit is exploring on the farm	the rabbit is exploring
+summarize the beautiful duck is drinking in the barn	the duck is drinking
+summarize the ambitious actor is eating in the garden	the actor is eating
+summarize the friendly sheep is eating in the barn	the sheep is eating
+summarize the playful dog is resting on the farm	the dog is resting
+summarize the smart writer is writing in the classroom	the writer is writing
+summarize the calm chicken is exploring in the barn	the chicken is exploring
+summarize the tall woman is eating in the classroom	the woman is eating
+summarize the young teacher is laughing at home	the teacher is laughing
+summarize the kind writer is working in the classroom	the writer is working
+summarize the agreable man is thinking at home	the man is thinking
+summarize the ambitious actor is reading at the beach	the actor is reading
+summarize the timid sheep is eating on the farm	the sheep is eating
+summarize the smart actress is studying at the restaurant	the actress is studying
+summarize the tall adult is working at the beach	the adult is working
+summarize the happy engineer is reading at the restaurant	the engineer is reading
+summarize the beautiful woman is laughing at the beach	the woman is laughing
+summarize the agreable professor is drawing in the park	the professor is drawing
+summarize the polite man is writing at the beach	the man is writing
+summarize the smart engineer is reading at home	the engineer is reading
+summarize the kind student is singing at the beach	the student is singing
+summarize the tall writer is singing in the classroom	the writer is singing
+summarize the fast turkey is running in the field	the turkey is running
+summarize the young girl is speaking at home	the girl is speaking
+summarize the kind man is singing in the park	the man is singing
+summarize the kind painter is drawing in the park	the painter is drawing
+summarize the ambitious child is eating at home	the child is eating
+summarize the kind writer is eating in the garden	the writer is eating
+summarize the beautiful actor is singing at the beach	the actor is singing
+summarize the agreable teacher is writing in the park	the teacher is writing
+summarize the smart teacher is eating in the park	the teacher is eating
+summarize the happy writer is laughing in the park	the writer is laughing
+summarize the smart woman is writing at the beach	the woman is writing
+summarize the ambitious teacher is writing in the classroom	the teacher is writing
+summarize the beautiful horse is eating in the field	the horse is eating
+summarize the young woman is writing in the park	the woman is writing
+summarize the beautiful man is writing in the classroom	the man is writing
+summarize the agreable artist is reading at the restaurant	the artist is reading
+summarize the friendly rabbit is drinking in the barn	the rabbit is drinking
+summarize the smart girl is reading at the beach	the girl is reading
+summarize the happy student is thinking at the beach	the student is thinking
+summarize the elegant horse is playing in the field	the horse is playing
+summarize the polite actor is working at home	the actor is working
+summarize the friendly turkey is resting in the field	the turkey is resting
+summarize the tall man is eating at home	the man is eating
+summarize the happy student is studying at the restaurant	the student is studying
+summarize the agile rabbit is eating on the farm	the rabbit is eating
+summarize the calm teacher is speaking at home	the teacher is speaking
+summarize the calm boy is studying at the restaurant	the boy is studying
+summarize the smart professor is thinking in the classroom	the professor is thinking
+summarize the agreable professor is drawing in the classroom	the professor is drawing
+summarize the ambitious engineer is studying in the classroom	the engineer is studying
+summarize the kind actor is thinking in the park	the actor is thinking
+summarize the fast cat is running on the farm	the cat is running
+summarize the young adult is drawing in the classroom	the adult is drawing
+summarize the playful cow is resting on the farm	the cow is resting
+summarize the happy painter is working at the restaurant	the painter is working
+summarize the young professor is studying at the beach	the professor is studying
+summarize the calm child is studying at the restaurant	the child is studying
+summarize the young teacher is thinking in the garden	the teacher is thinking
+summarize the young artist is speaking at the beach	the artist is speaking
+summarize the playful rabbit is playing in the barn	the rabbit is playing
+summarize the elegant cow is drinking on the farm	the cow is drinking
+summarize the ambitious boy is reading in the garden	the boy is reading
+summarize the kind professor is reading at home	the professor is reading
+summarize the agile cow is exploring on the farm	the cow is exploring
+summarize the polite writer is singing at home	the writer is singing
+summarize the tall professor is thinking in the park	the professor is thinking
+summarize the calm boy is reading at the beach	the boy is reading
+summarize the agile cat is playing on the farm	the cat is playing
+summarize the elegant chicken is drinking in the field	the chicken is drinking
+summarize the calm actress is reading in the park	the actress is reading
+summarize the agreable child is eating at the restaurant	the child is eating
+summarize the calm horse is playing in the barn	the horse is playing
+summarize the ambitious child is eating in the classroom	the child is eating
+summarize the beautiful horse is running on the farm	the horse is running
+summarize the agreable actress is writing at home	the actress is writing
+summarize the beautiful girl is thinking in the garden	the girl is thinking
+summarize the ambitious teacher is drawing at the restaurant	the teacher is drawing
+summarize the sleepy rabbit is exploring in the field	the rabbit is exploring
+summarize the calm actress is studying in the park	the actress is studying
+summarize the young child is speaking in the park	the child is speaking
+summarize the smart painter is speaking at the beach	the painter is speaking
+summarize the agreable professor is drawing at the beach	the professor is drawing
+summarize the happy boy is reading at the beach	the boy is reading
+summarize the polite student is writing in the park	the student is writing
+summarize the kind artist is singing in the garden	the artist is singing
+summarize the kind painter is singing in the park	the painter is singing
+summarize the timid chicken is drinking on the farm	the chicken is drinking
+summarize the elegant rabbit is drinking in the barn	the rabbit is drinking
+summarize the kind man is speaking at the beach	the man is speaking
+summarize the tall professor is reading at the restaurant	the professor is reading
+summarize the sleepy chicken is drinking in the barn	the chicken is drinking
+summarize the smart man is drawing at home	the man is drawing
+summarize the young painter is drawing at home	the painter is drawing
+summarize the elegant turkey is sleeping on the farm	the turkey is sleeping
+summarize the young adult is eating at home	the adult is eating
+summarize the beautiful horse is resting on the farm	the horse is resting
+summarize the young teacher is drawing in the classroom	the teacher is drawing
+summarize the fast horse is drinking on the farm	the horse is drinking
+summarize the happy boy is reading in the garden	the boy is reading
+summarize the tall professor is drawing in the garden	the professor is drawing
+summarize the calm student is thinking at the beach	the student is thinking
+summarize the timid duck is exploring in the barn	the duck is exploring
+summarize the sleepy cat is exploring on the farm	the cat is exploring
+summarize the elegant horse is sleeping in the field	the horse is sleeping
+summarize the agile rabbit is eating in the barn	the rabbit is eating
+summarize the happy artist is drawing in the park	the artist is drawing
+summarize the elegant rabbit is eating in the field	the rabbit is eating
+summarize the ambitious child is thinking at home	the child is thinking
+summarize the beautiful engineer is drawing in the park	the engineer is drawing
+summarize the friendly horse is resting on the farm	the horse is resting
+summarize the elegant duck is sleeping in the barn	the duck is sleeping
+summarize the polite actor is writing at the beach	the actor is writing
+summarize the kind student is singing at the restaurant	the student is singing
+summarize the timid cow is playing in the barn	the cow is playing
+summarize the happy actress is speaking in the garden	the actress is speaking
+summarize the calm sheep is sleeping in the field	the sheep is sleeping
+summarize the beautiful cat is eating on the farm	the cat is eating
+summarize the happy man is drawing at the restaurant	the man is drawing
+summarize the agreable painter is reading in the classroom	the painter is reading
+summarize the agreable artist is writing at home	the artist is writing
+summarize the calm woman is speaking at the beach	the woman is speaking
+summarize the kind boy is laughing at the beach	the boy is laughing
+summarize the young adult is singing in the garden	the adult is singing
+summarize the kind writer is laughing in the park	the writer is laughing
+summarize the agile turkey is playing on the farm	the turkey is playing
+summarize the tall artist is writing at the restaurant	the artist is writing
+summarize the calm painter is reading at the beach	the painter is reading
+summarize the elegant cow is playing in the field	the cow is playing
+summarize the polite writer is writing at the restaurant	the writer is writing
+summarize the agreable adult is thinking at the beach	the adult is thinking
+summarize the playful dog is sleeping in the field	the dog is sleeping
+summarize the shy sheep is exploring on the farm	the sheep is exploring
+summarize the happy teacher is writing in the park	the teacher is writing
+summarize the smart girl is reading in the park	the girl is reading
+summarize the beautiful painter is reading in the classroom	the painter is reading
+summarize the happy student is singing at the beach	the student is singing
+summarize the polite woman is eating at home	the woman is eating
+summarize the agreable writer is singing at the restaurant	the writer is singing
+summarize the happy adult is studying in the park	the adult is studying
+summarize the beautiful girl is studying at home	the girl is studying
+summarize the smart artist is eating in the garden	the artist is eating
+summarize the fast chicken is exploring in the barn	the chicken is exploring
+summarize the calm cow is playing on the farm	the cow is playing
+summarize the kind actress is thinking at home	the actress is thinking
+summarize the calm teacher is drawing in the garden	the teacher is drawing
+summarize the polite child is reading at home	the child is reading
+summarize the polite child is eating in the garden	the child is eating
+summarize the friendly chicken is sleeping in the field	the chicken is sleeping
+summarize the polite artist is singing in the park	the artist is singing
+summarize the timid cat is drinking in the barn	the cat is drinking
+summarize the agreable artist is thinking in the classroom	the artist is thinking
+summarize the beautiful actress is working at home	the actress is working
+summarize the polite engineer is thinking at the beach	the engineer is thinking
+summarize the young girl is reading in the park	the girl is reading
+summarize the timid dog is playing in the barn	the dog is playing
+summarize the young teacher is studying in the classroom	the teacher is studying
+summarize the elegant duck is drinking on the farm	the duck is drinking
+summarize the agile sheep is eating in the field	the sheep is eating
+summarize the tall professor is singing in the garden	the professor is singing
+summarize the sleepy cow is eating on the farm	the cow is eating
+summarize the agile cat is exploring in the field	the cat is exploring
+summarize the polite child is reading in the classroom	the child is reading
+summarize the beautiful chicken is playing in the barn	the chicken is playing
+summarize the polite actor is reading in the park	the actor is reading
+summarize the polite teacher is studying in the classroom	the teacher is studying
+summarize the timid turkey is resting on the farm	the turkey is resting
+summarize the ambitious man is thinking in the classroom	the man is thinking
+summarize the agile dog is playing in the field	the dog is playing
+summarize the kind child is writing in the classroom	the child is writing
+summarize the elegant cat is running in the field	the cat is running
+summarize the ambitious painter is singing at the beach	the painter is singing
+summarize the calm cow is playing in the field	the cow is playing
+summarize the beautiful professor is studying at the beach	the professor is studying
+summarize the beautiful duck is sleeping in the barn	the duck is sleeping
+summarize the young painter is writing at the beach	the painter is writing
+summarize the young teacher is eating at the restaurant	the teacher is eating
+summarize the ambitious student is working in the garden	the student is working
+summarize the sleepy rabbit is playing in the field	the rabbit is playing
+summarize the calm actor is eating in the classroom	the actor is eating
+summarize the timid dog is eating on the farm	the dog is eating
+summarize the young writer is singing in the classroom	the writer is singing
+summarize the sleepy turkey is exploring in the barn	the turkey is exploring
+summarize the beautiful cow is running in the barn	the cow is running
+summarize the young woman is studying in the classroom	the woman is studying
+summarize the calm actress is singing in the park	the actress is singing
+summarize the polite boy is reading at home	the boy is reading
+summarize the happy professor is writing in the classroom	the professor is writing
+summarize the agreable boy is thinking in the park	the boy is thinking
+summarize the sleepy turkey is sleeping in the barn	the turkey is sleeping
+summarize the tall girl is laughing in the garden	the girl is laughing
+summarize the tall engineer is reading at the beach	the engineer is reading
+summarize the young actor is speaking at the beach	the actor is speaking
+summarize the playful chicken is eating in the field	the chicken is eating
+summarize the shy horse is resting in the barn	the horse is resting
+summarize the happy boy is reading at the restaurant	the boy is reading
+summarize the ambitious girl is eating in the garden	the girl is eating
+summarize the smart child is thinking in the park	the child is thinking
+summarize the beautiful artist is thinking at the beach	the artist is thinking
+summarize the young girl is laughing at the beach	the girl is laughing
+summarize the beautiful professor is drawing at the restaurant	the professor is drawing
+summarize the agile horse is sleeping in the barn	the horse is sleeping
+summarize the smart professor is studying in the garden	the professor is studying
+summarize the beautiful engineer is eating at home	the engineer is eating
+summarize the kind child is singing in the park	the child is singing
+summarize the ambitious engineer is singing in the garden	the engineer is singing
+summarize the ambitious actress is studying in the garden	the actress is studying
+summarize the polite girl is studying in the classroom	the girl is studying
+summarize the smart adult is working in the garden	the adult is working
+summarize the calm writer is thinking at the beach	the writer is thinking
+summarize the friendly horse is resting on the farm	the horse is resting
+summarize the agile cow is resting in the barn	the cow is resting
+summarize the smart actor is speaking at the restaurant	the actor is speaking
+summarize the elegant duck is exploring in the field	the duck is exploring
+summarize the ambitious writer is drawing at the beach	the writer is drawing
+summarize the calm teacher is working at home	the teacher is working
+summarize the tall student is drawing at home	the student is drawing
+summarize the smart writer is speaking in the classroom	the writer is speaking
+summarize the calm adult is laughing at the beach	the adult is laughing
+summarize the sleepy cat is exploring on the farm	the cat is exploring
+summarize the happy woman is singing at the restaurant	the woman is singing
+summarize the beautiful writer is writing at the restaurant	the writer is writing
+summarize the polite child is drawing at home	the child is drawing
+summarize the playful horse is running on the farm	the horse is running
+summarize the fast cow is sleeping in the barn	the cow is sleeping
+summarize the polite professor is drawing at the restaurant	the professor is drawing
+summarize the calm cat is eating in the barn	the cat is eating
+summarize the ambitious actress is singing in the park	the actress is singing
+summarize the kind actor is studying at the restaurant	the actor is studying
+summarize the beautiful horse is resting in the field	the horse is resting
+summarize the smart teacher is eating in the garden	the teacher is eating
+summarize the beautiful child is reading at the restaurant	the child is reading
+summarize the ambitious painter is eating at home	the painter is eating
+summarize the tall woman is singing in the park	the woman is singing
+summarize the young boy is reading in the garden	the boy is reading
+summarize the agreable actor is speaking in the classroom	the actor is speaking
+summarize the smart girl is studying in the garden	the girl is studying
+summarize the kind man is studying at the restaurant	the man is studying
+summarize the young actor is laughing at the restaurant	the actor is laughing
+summarize the calm duck is drinking in the field	the duck is drinking
+summarize the playful dog is exploring in the barn	the dog is exploring
+summarize the fast horse is sleeping in the barn	the horse is sleeping
+summarize the timid chicken is resting in the barn	the chicken is resting
+summarize the friendly dog is playing in the barn	the dog is playing
+summarize the tall adult is reading at the restaurant	the adult is reading
+summarize the calm woman is studying at the beach	the woman is studying
+summarize the young child is reading in the classroom	the child is reading
+summarize the young professor is reading at the restaurant	the professor is reading
+summarize the beautiful dog is eating on the farm	the dog is eating
+summarize the timid cow is drinking in the field	the cow is drinking
+summarize the shy sheep is resting in the field	the sheep is resting
+summarize the shy turkey is exploring in the barn	the turkey is exploring
+summarize the tall woman is working in the garden	the woman is working
+summarize the beautiful professor is drawing in the park	the professor is drawing
+summarize the beautiful rabbit is resting on the farm	the rabbit is resting
+summarize the calm professor is thinking in the park	the professor is thinking
+summarize the calm adult is working at home	the adult is working
+summarize the playful turkey is drinking in the field	the turkey is drinking
+summarize the friendly cat is exploring on the farm	the cat is exploring
+summarize the fast horse is resting on the farm	the horse is resting
+summarize the fast cat is sleeping in the field	the cat is sleeping
+summarize the smart adult is laughing at the restaurant	the adult is laughing
+summarize the ambitious student is thinking at home	the student is thinking
+summarize the kind painter is singing in the park	the painter is singing
+summarize the young student is thinking in the classroom	the student is thinking
+summarize the playful dog is resting in the field	the dog is resting
+summarize the tall girl is singing in the classroom	the girl is singing
+summarize the happy teacher is eating at home	the teacher is eating
+summarize the tall woman is working at the restaurant	the woman is working
+summarize the timid turkey is running in the field	the turkey is running
+summarize the polite engineer is speaking at the beach	the engineer is speaking
+summarize the fast cow is drinking in the field	the cow is drinking
+summarize the ambitious woman is reading at home	the woman is reading
+summarize the playful cat is eating in the field	the cat is eating
+summarize the smart girl is reading in the garden	the girl is reading
+summarize the fast dog is drinking on the farm	the dog is drinking
+summarize the kind girl is singing in the garden	the girl is singing
+summarize the calm engineer is writing in the park	the engineer is writing
+summarize the happy professor is writing in the classroom	the professor is writing
+summarize the smart artist is reading in the garden	the artist is reading
+summarize the agile chicken is running on the farm	the chicken is running
+summarize the beautiful boy is drawing in the classroom	the boy is drawing
+summarize the elegant cow is drinking in the field	the cow is drinking
+summarize the kind adult is singing at the restaurant	the adult is singing
+summarize the polite artist is writing in the park	the artist is writing
+summarize the shy rabbit is exploring in the field	the rabbit is exploring
+summarize the elegant rabbit is eating in the barn	the rabbit is eating
+summarize the playful horse is drinking in the field	the horse is drinking
+summarize the ambitious actress is eating in the park	the actress is eating
+summarize the shy sheep is exploring in the barn	the sheep is exploring
+summarize the smart actor is drawing at home	the actor is drawing
+summarize the fast rabbit is sleeping in the barn	the rabbit is sleeping
+summarize the friendly horse is exploring in the field	the horse is exploring
+summarize the polite student is writing in the park	the student is writing
+summarize the playful duck is sleeping in the field	the duck is sleeping
+summarize the beautiful sheep is running on the farm	the sheep is running
+summarize the beautiful artist is studying at the beach	the artist is studying
+summarize the friendly chicken is resting in the field	the chicken is resting
+summarize the friendly rabbit is playing in the field	the rabbit is playing
+summarize the young actor is drawing at the restaurant	the actor is drawing
+summarize the playful chicken is playing in the barn	the chicken is playing
+summarize the shy cat is running in the field	the cat is running
+summarize the beautiful actor is eating in the classroom	the actor is eating
+summarize the ambitious woman is eating at home	the woman is eating
+summarize the happy writer is working in the park	the writer is working
+summarize the tall woman is speaking in the classroom	the woman is speaking
+summarize the agreable adult is speaking in the classroom	the adult is speaking
+summarize the calm boy is working in the classroom	the boy is working
+summarize the calm man is laughing at the restaurant	the man is laughing
+summarize the shy chicken is drinking in the barn	the chicken is drinking
+summarize the polite artist is speaking in the garden	the artist is speaking
+summarize the young professor is laughing in the classroom	the professor is laughing
+summarize the elegant cat is resting in the field	the cat is resting
+summarize the smart professor is eating at home	the professor is eating
+summarize the shy rabbit is resting on the farm	the rabbit is resting
+summarize the beautiful horse is sleeping in the field	the horse is sleeping
+summarize the young actress is singing at the restaurant	the actress is singing
+summarize the timid cat is resting on the farm	the cat is resting
+summarize the kind actress is drawing in the classroom	the actress is drawing
+summarize the young actor is singing at the beach	the actor is singing
+summarize the sleepy sheep is resting in the barn	the sheep is resting
+summarize the beautiful artist is singing in the garden	the artist is singing
+summarize the fast dog is playing on the farm	the dog is playing
+summarize the agreable actress is writing at home	the actress is writing
+summarize the agile chicken is eating in the field	the chicken is eating
+summarize the beautiful cow is resting in the field	the cow is resting
+summarize the beautiful painter is eating in the park	the painter is eating
+summarize the polite engineer is drawing at the beach	the engineer is drawing
+summarize the smart woman is reading in the garden	the woman is reading
+summarize the ambitious actress is working at home	the actress is working
+summarize the ambitious artist is singing at the restaurant	the artist is singing
+summarize the fast horse is playing in the field	the horse is playing
+summarize the timid rabbit is exploring in the barn	the rabbit is exploring
+summarize the smart girl is working in the garden	the girl is working
+summarize the sleepy horse is drinking on the farm	the horse is drinking
+summarize the agreable artist is eating at the beach	the artist is eating
+summarize the playful cat is resting in the barn	the cat is resting
+summarize the timid rabbit is playing on the farm	the rabbit is playing
+summarize the playful dog is sleeping in the barn	the dog is sleeping
+summarize the kind professor is writing at home	the professor is writing
+summarize the timid turkey is sleeping in the field	the turkey is sleeping
+summarize the calm actor is thinking at the restaurant	the actor is thinking
+summarize the elegant turkey is playing in the field	the turkey is playing
+summarize the elegant turkey is eating in the field	the turkey is eating
+summarize the polite actress is singing at the beach	the actress is singing
+summarize the sleepy cat is sleeping in the barn	the cat is sleeping
+summarize the kind girl is drawing in the park	the girl is drawing
+summarize the kind girl is working in the classroom	the girl is working
+summarize the playful cow is drinking in the barn	the cow is drinking
+summarize the agile duck is running in the barn	the duck is running
+summarize the beautiful duck is resting in the field	the duck is resting
+summarize the young painter is studying in the park	the painter is studying
+summarize the beautiful turkey is exploring in the field	the turkey is exploring
+summarize the happy student is eating in the classroom	the student is eating
+summarize the fast rabbit is running on the farm	the rabbit is running
+summarize the tall student is thinking at the restaurant	the student is thinking
+summarize the beautiful girl is singing in the classroom	the girl is singing
+summarize the ambitious boy is eating at the restaurant	the boy is eating
+summarize the calm student is drawing at the restaurant	the student is drawing
+summarize the tall student is working at home	the student is working
+summarize the beautiful artist is drawing in the classroom	the artist is drawing
+summarize the agreable child is writing in the park	the child is writing
+summarize the friendly sheep is resting in the field	the sheep is resting
+summarize the friendly cat is drinking in the barn	the cat is drinking
+summarize the calm rabbit is playing on the farm	the rabbit is playing
+summarize the ambitious actress is eating at home	the actress is eating
+summarize the polite adult is writing at home	the adult is writing
+summarize the young man is laughing in the park	the man is laughing
+summarize the beautiful actress is reading at the beach	the actress is reading
+summarize the polite adult is working at home	the adult is working
+summarize the kind boy is singing at home	the boy is singing
+summarize the agreable painter is writing at the beach	the painter is writing
+summarize the calm engineer is thinking at the restaurant	the engineer is thinking
+summarize the fast horse is sleeping on the farm	the horse is sleeping
+summarize the calm rabbit is sleeping on the farm	the rabbit is sleeping
+summarize the friendly turkey is exploring on the farm	the turkey is exploring
+summarize the beautiful chicken is sleeping in the field	the chicken is sleeping
+summarize the smart engineer is singing at the restaurant	the engineer is singing
+summarize the calm man is thinking at the beach	the man is thinking
+summarize the polite actor is working in the classroom	the actor is working
+summarize the smart engineer is writing in the classroom	the engineer is writing
+summarize the timid rabbit is running in the field	the rabbit is running
+summarize the calm artist is reading at the restaurant	the artist is reading
+summarize the shy duck is exploring in the barn	the duck is exploring
+summarize the smart woman is drawing in the classroom	the woman is drawing
+summarize the polite child is thinking at the beach	the child is thinking
+summarize the young artist is singing at the beach	the artist is singing
+summarize the kind engineer is eating in the garden	the engineer is eating
+summarize the beautiful cat is drinking on the farm	the cat is drinking
+summarize the agile turkey is playing in the field	the turkey is playing
+summarize the beautiful turkey is eating on the farm	the turkey is eating
+summarize the playful horse is sleeping in the field	the horse is sleeping
+summarize the agreable painter is eating in the garden	the painter is eating
+summarize the young artist is reading at the restaurant	the artist is reading
+summarize the ambitious boy is singing in the garden	the boy is singing
+summarize the ambitious boy is speaking in the classroom	the boy is speaking
+summarize the sleepy rabbit is sleeping in the barn	the rabbit is sleeping
+summarize the happy adult is reading in the classroom	the adult is reading
+summarize the polite child is studying in the park	the child is studying
+summarize the beautiful child is reading at home	the child is reading
+summarize the happy actress is writing in the garden	the actress is writing
+summarize the tall actress is studying in the park	the actress is studying
+summarize the smart engineer is drawing in the classroom	the engineer is drawing
+summarize the agreable adult is eating at the restaurant	the adult is eating
+summarize the tall boy is speaking in the park	the boy is speaking
+summarize the ambitious painter is drawing at the restaurant	the painter is drawing
+summarize the polite actor is singing at home	the actor is singing
+summarize the beautiful engineer is speaking in the classroom	the engineer is speaking
+summarize the sleepy chicken is eating on the farm	the chicken is eating
+summarize the kind actor is drawing at the beach	the actor is drawing
+summarize the polite student is thinking in the park	the student is thinking
+summarize the smart painter is laughing at the restaurant	the painter is laughing
+summarize the friendly cow is drinking in the field	the cow is drinking
+summarize the smart writer is thinking in the classroom	the writer is thinking
+summarize the polite professor is working in the classroom	the professor is working
+summarize the tall engineer is studying at the restaurant	the engineer is studying
+summarize the calm engineer is singing at the restaurant	the engineer is singing
+summarize the agreable girl is studying in the park	the girl is studying
+summarize the polite professor is drawing in the garden	the professor is drawing
+summarize the polite professor is reading at home	the professor is reading
+summarize the beautiful dog is drinking on the farm	the dog is drinking
+summarize the happy actress is eating at the restaurant	the actress is eating
+summarize the agreable teacher is writing at the restaurant	the teacher is writing
+summarize the smart man is laughing at the restaurant	the man is laughing
+summarize the smart adult is eating in the garden	the adult is eating
+summarize the happy teacher is working in the park	the teacher is working
+summarize the smart painter is drawing at home	the painter is drawing
+summarize the friendly sheep is resting in the field	the sheep is resting
+summarize the calm horse is exploring in the field	the horse is exploring
+summarize the smart writer is singing at home	the writer is singing
+summarize the fast sheep is running on the farm	the sheep is running
+summarize the tall boy is singing in the classroom	the boy is singing
+summarize the smart man is thinking in the park	the man is thinking
+summarize the happy actor is thinking in the garden	the actor is thinking
+summarize the beautiful woman is thinking at the beach	the woman is thinking
+summarize the calm duck is exploring on the farm	the duck is exploring
+summarize the sleepy sheep is resting on the farm	the sheep is resting
+summarize the calm man is writing in the classroom	the man is writing
+summarize the beautiful writer is writing in the garden	the writer is writing
+summarize the tall student is drawing in the classroom	the student is drawing
+summarize the agreable woman is singing at the restaurant	the woman is singing
+summarize the smart girl is singing at the restaurant	the girl is singing
+summarize the agile horse is drinking on the farm	the horse is drinking
+summarize the ambitious professor is laughing at home	the professor is laughing
+summarize the tall engineer is working at the restaurant	the engineer is working
+summarize the tall man is singing at the restaurant	the man is singing
+summarize the ambitious boy is laughing in the garden	the boy is laughing
+summarize the young writer is writing at the restaurant	the writer is writing
+summarize the calm actor is writing in the park	the actor is writing
+summarize the fast sheep is eating in the field	the sheep is eating
+summarize the ambitious woman is singing in the classroom	the woman is singing
+summarize the beautiful woman is laughing at the restaurant	the woman is laughing
+summarize the tall professor is working at the restaurant	the professor is working
+summarize the elegant horse is sleeping in the field	the horse is sleeping
+summarize the kind man is working in the park	the man is working
+summarize the tall professor is singing at the restaurant	the professor is singing
+summarize the beautiful actor is laughing in the park	the actor is laughing
+summarize the kind painter is reading in the garden	the painter is reading
+summarize the agile chicken is playing in the field	the chicken is playing
+summarize the shy cat is drinking on the farm	the cat is drinking
+summarize the beautiful actor is laughing in the park	the actor is laughing
+summarize the playful cat is drinking in the field	the cat is drinking
+summarize the calm painter is singing in the garden	the painter is singing
+summarize the smart boy is reading in the park	the boy is reading
+summarize the friendly chicken is playing in the field	the chicken is playing
+summarize the calm rabbit is drinking on the farm	the rabbit is drinking
+summarize the calm actress is thinking in the garden	the actress is thinking
+summarize the calm child is writing at the restaurant	the child is writing
+summarize the beautiful artist is eating at the restaurant	the artist is eating
+summarize the agreable child is drawing in the park	the child is drawing
+summarize the fast turkey is playing on the farm	the turkey is playing
+summarize the ambitious teacher is writing at the restaurant	the teacher is writing
+summarize the sleepy turkey is playing in the barn	the turkey is playing
+summarize the agreable student is laughing at the beach	the student is laughing
+summarize the kind painter is writing at home	the painter is writing
+summarize the timid duck is drinking on the farm	the duck is drinking
+summarize the friendly horse is sleeping on the farm	the horse is sleeping
+summarize the timid dog is sleeping on the farm	the dog is sleeping
+summarize the tall child is thinking at home	the child is thinking
+summarize the calm rabbit is eating on the farm	the rabbit is eating
+summarize the playful horse is running on the farm	the horse is running
+summarize the timid horse is playing in the field	the horse is playing
+summarize the ambitious adult is studying at home	the adult is studying
+summarize the beautiful child is drawing in the park	the child is drawing
+summarize the playful horse is exploring in the barn	the horse is exploring
+summarize the polite woman is studying at the restaurant	the woman is studying
+summarize the agreable actress is eating at home	the actress is eating
+summarize the happy actor is studying at home	the actor is studying
+summarize the beautiful actor is drawing at the restaurant	the actor is drawing
+summarize the kind child is studying in the classroom	the child is studying
+summarize the kind engineer is eating in the garden	the engineer is eating
+summarize the beautiful horse is exploring in the barn	the horse is exploring
+summarize the ambitious professor is working at the beach	the professor is working
+summarize the beautiful cow is running on the farm	the cow is running
+summarize the elegant sheep is playing in the barn	the sheep is playing
+summarize the beautiful cat is resting in the barn	the cat is resting
+summarize the timid dog is resting in the field	the dog is resting
+summarize the friendly horse is running in the barn	the horse is running
+summarize the elegant sheep is sleeping on the farm	the sheep is sleeping
+summarize the calm professor is thinking at the restaurant	the professor is thinking
+summarize the beautiful child is eating in the garden	the child is eating
+summarize the shy chicken is playing on the farm	the chicken is playing
+summarize the ambitious professor is drawing at the restaurant	the professor is drawing
+summarize the young teacher is speaking in the park	the teacher is speaking
+summarize the calm teacher is writing in the park	the teacher is writing
+summarize the fast horse is resting on the farm	the horse is resting
+summarize the tall painter is eating at the beach	the painter is eating
+summarize the calm painter is singing in the garden	the painter is singing
+summarize the agile rabbit is playing in the barn	the rabbit is playing
+summarize the smart actress is studying at home	the actress is studying
+summarize the elegant turkey is resting on the farm	the turkey is resting
+summarize the agreable actor is thinking in the classroom	the actor is thinking
+summarize the calm actor is reading at the beach	the actor is reading
+summarize the young child is eating in the garden	the child is eating
+summarize the polite girl is thinking at the beach	the girl is thinking
+summarize the friendly turkey is eating in the field	the turkey is eating
+summarize the beautiful turkey is drinking in the barn	the turkey is drinking
+summarize the ambitious teacher is laughing in the garden	the teacher is laughing
+summarize the happy actor is studying in the classroom	the actor is studying
+summarize the beautiful duck is eating in the field	the duck is eating
+summarize the shy cat is exploring in the field	the cat is exploring
+summarize the polite teacher is drawing in the park	the teacher is drawing
+summarize the timid rabbit is eating in the field	the rabbit is eating
+summarize the tall woman is speaking at the beach	the woman is speaking
+summarize the sleepy sheep is sleeping in the barn	the sheep is sleeping
+summarize the agreable actress is laughing in the garden	the actress is laughing
+summarize the happy actress is speaking at home	the actress is speaking
+summarize the agreable child is singing at home	the child is singing
+summarize the kind engineer is laughing in the garden	the engineer is laughing
+summarize the beautiful dog is eating on the farm	the dog is eating
+summarize the beautiful actress is working in the park	the actress is working
+summarize the smart woman is drawing in the classroom	the woman is drawing
+summarize the polite writer is writing in the classroom	the writer is writing
+summarize the happy actress is eating at the beach	the actress is eating
+summarize the tall artist is drawing at the restaurant	the artist is drawing
+summarize the calm horse is resting on the farm	the horse is resting
+summarize the agreable painter is writing in the garden	the painter is writing
+summarize the calm actress is drawing in the garden	the actress is drawing
+summarize the fast duck is resting in the field	the duck is resting
+summarize the kind engineer is laughing in the garden	the engineer is laughing
+summarize the beautiful artist is thinking at the beach	the artist is thinking
+summarize the fast cow is exploring on the farm	the cow is exploring
+summarize the timid rabbit is drinking in the field	the rabbit is drinking
+summarize the timid horse is exploring in the barn	the horse is exploring
+summarize the smart girl is eating in the garden	the girl is eating
+summarize the smart professor is thinking at home	the professor is thinking
+summarize the friendly turkey is resting on the farm	the turkey is resting
+summarize the sleepy turkey is exploring in the field	the turkey is exploring
+summarize the young woman is singing at the restaurant	the woman is singing
+summarize the kind teacher is thinking in the park	the teacher is thinking
+summarize the polite adult is writing in the park	the adult is writing
+summarize the ambitious woman is speaking at home	the woman is speaking
+summarize the beautiful rabbit is eating in the barn	the rabbit is eating
+summarize the fast cow is exploring in the field	the cow is exploring
+summarize the shy duck is drinking in the field	the duck is drinking
+summarize the tall engineer is drawing at the beach	the engineer is drawing
+summarize the happy boy is drawing in the garden	the boy is drawing
+summarize the young student is reading in the classroom	the student is reading
+summarize the happy engineer is laughing in the classroom	the engineer is laughing
+summarize the playful sheep is sleeping in the field	the sheep is sleeping
+summarize the calm chicken is exploring on the farm	the chicken is exploring
+summarize the agreable actress is laughing at the beach	the actress is laughing
+summarize the calm dog is resting in the barn	the dog is resting
+summarize the agile chicken is running on the farm	the chicken is running
+summarize the shy horse is exploring in the barn	the horse is exploring
+summarize the ambitious writer is studying at home	the writer is studying
+summarize the calm girl is studying at home	the girl is studying
+summarize the kind painter is writing at the beach	the painter is writing
+summarize the agreable boy is working in the classroom	the boy is working
+summarize the calm dog is drinking in the barn	the dog is drinking
+summarize the beautiful duck is sleeping in the barn	the duck is sleeping
+summarize the agreable professor is reading in the garden	the professor is reading
+summarize the playful horse is drinking in the field	the horse is drinking
+summarize the elegant cat is exploring in the field	the cat is exploring
+summarize the elegant sheep is exploring on the farm	the sheep is exploring
+summarize the ambitious adult is eating in the classroom	the adult is eating
+summarize the agreable student is thinking at the beach	the student is thinking
+summarize the beautiful engineer is eating at home	the engineer is eating
+summarize the timid cat is resting on the farm	the cat is resting
+summarize the calm adult is drawing in the garden	the adult is drawing
+summarize the beautiful sheep is eating in the barn	the sheep is eating
+summarize the young child is laughing in the classroom	the child is laughing
+summarize the calm actress is singing in the park	the actress is singing
+summarize the ambitious actor is singing in the park	the actor is singing
+summarize the young boy is drawing at home	the boy is drawing
+summarize the calm boy is speaking in the park	the boy is speaking
+summarize the agreable man is studying at the beach	the man is studying
+summarize the agile rabbit is exploring in the field	the rabbit is exploring
+summarize the friendly chicken is sleeping in the field	the chicken is sleeping
+summarize the sleepy sheep is exploring in the barn	the sheep is exploring
+summarize the happy painter is drawing in the garden	the painter is drawing
+summarize the smart adult is drawing at the restaurant	the adult is drawing
+summarize the kind boy is reading in the classroom	the boy is reading
+summarize the sleepy chicken is resting in the barn	the chicken is resting
+summarize the beautiful horse is running in the barn	the horse is running
+summarize the ambitious boy is working at the restaurant	the boy is working
+summarize the elegant sheep is eating in the field	the sheep is eating
+summarize the friendly chicken is sleeping on the farm	the chicken is sleeping
+summarize the agile cat is exploring in the field	the cat is exploring
+summarize the beautiful teacher is speaking at the beach	the teacher is speaking
+summarize the smart writer is working in the park	the writer is working
+summarize the tall boy is eating in the classroom	the boy is eating
+summarize the friendly duck is eating on the farm	the duck is eating
+summarize the calm actor is thinking at home	the actor is thinking
+summarize the agreable adult is writing at the restaurant	the adult is writing
+summarize the agreable painter is writing in the classroom	the painter is writing
+summarize the tall girl is thinking at home	the girl is thinking
+summarize the young boy is speaking in the park	the boy is speaking
+summarize the ambitious professor is writing in the classroom	the professor is writing
+summarize the playful cat is drinking in the field	the cat is drinking
+summarize the beautiful engineer is studying at the beach	the engineer is studying
+summarize the tall girl is thinking at home	the girl is thinking
+summarize the agreable actress is studying at the restaurant	the actress is studying
+summarize the beautiful engineer is singing at the beach	the engineer is singing
+summarize the polite boy is speaking at the restaurant	the boy is speaking
+summarize the kind artist is writing at home	the artist is writing
+summarize the calm actor is reading at the restaurant	the actor is reading
+summarize the happy actor is studying at home	the actor is studying
+summarize the playful chicken is resting in the barn	the chicken is resting
+summarize the kind teacher is speaking at the restaurant	the teacher is speaking
+summarize the calm professor is writing at home	the professor is writing
+summarize the tall actor is laughing in the garden	the actor is laughing
+summarize the fast cat is running in the barn	the cat is running
+summarize the calm professor is drawing in the classroom	the professor is drawing
+summarize the ambitious writer is thinking at the beach	the writer is thinking
+summarize the young girl is studying at the beach	the girl is studying
+summarize the polite teacher is thinking at the beach	the teacher is thinking
+summarize the sleepy horse is exploring on the farm	the horse is exploring
+summarize the playful dog is exploring in the field	the dog is exploring
+summarize the smart professor is drawing in the garden	the professor is drawing
+summarize the elegant rabbit is eating in the barn	the rabbit is eating
+summarize the fast cow is eating in the field	the cow is eating
+summarize the playful horse is playing on the farm	the horse is playing
+summarize the fast chicken is running in the field	the chicken is running
+summarize the tall man is speaking at home	the man is speaking
+summarize the playful turkey is resting in the field	the turkey is resting
+summarize the happy actor is laughing in the garden	the actor is laughing
+summarize the smart teacher is working in the park	the teacher is working
+summarize the kind woman is thinking at the restaurant	the woman is thinking
+summarize the beautiful artist is eating in the park	the artist is eating
+summarize the agile cow is running on the farm	the cow is running
+summarize the beautiful sheep is drinking on the farm	the sheep is drinking
+summarize the elegant dog is sleeping in the field	the dog is sleeping
+summarize the timid chicken is eating on the farm	the chicken is eating
+summarize the happy adult is singing at the restaurant	the adult is singing
+summarize the calm woman is reading at the restaurant	the woman is reading
+summarize the calm adult is working at the beach	the adult is working
+summarize the elegant chicken is running on the farm	the chicken is running
+summarize the polite woman is speaking at home	the woman is speaking
+summarize the calm actor is reading at the beach	the actor is reading
+summarize the kind adult is drawing at the beach	the adult is drawing
+summarize the smart engineer is drawing in the park	the engineer is drawing
+summarize the beautiful sheep is drinking in the barn	the sheep is drinking
+summarize the friendly dog is playing on the farm	the dog is playing
+summarize the tall child is studying at the beach	the child is studying
+summarize the calm professor is working in the classroom	the professor is working
+summarize the agile sheep is resting on the farm	the sheep is resting
+summarize the agreable child is reading in the park	the child is reading
+summarize the calm artist is laughing at home	the artist is laughing
+summarize the ambitious actor is writing at the beach	the actor is writing
+summarize the polite child is working at the beach	the child is working
+summarize the polite actress is working in the park	the actress is working
+summarize the agreable adult is laughing at the beach	the adult is laughing
+summarize the kind girl is writing in the garden	the girl is writing
+summarize the calm dog is resting in the field	the dog is resting
+summarize the tall writer is writing at home	the writer is writing
+summarize the kind painter is thinking in the park	the painter is thinking
+summarize the beautiful teacher is working at the beach	the teacher is working
+summarize the tall girl is singing in the garden	the girl is singing
+summarize the calm dog is resting in the field	the dog is resting
+summarize the happy child is thinking in the classroom	the child is thinking
+summarize the smart actor is thinking at the beach	the actor is thinking
+summarize the agreable girl is speaking at home	the girl is speaking
+summarize the timid rabbit is playing in the barn	the rabbit is playing
+summarize the happy student is laughing at the restaurant	the student is laughing
+summarize the shy dog is sleeping on the farm	the dog is sleeping
+summarize the happy student is working in the classroom	the student is working
+summarize the tall artist is eating at the beach	the artist is eating
+summarize the kind actress is working at home	the actress is working
+summarize the young teacher is thinking in the classroom	the teacher is thinking
+summarize the agreable actress is eating in the garden	the actress is eating
+summarize the sleepy chicken is eating on the farm	the chicken is eating
+summarize the fast dog is sleeping in the field	the dog is sleeping
+summarize the young artist is working at home	the artist is working
+summarize the playful duck is sleeping on the farm	the duck is sleeping
+summarize the sleepy rabbit is eating in the field	the rabbit is eating
+summarize the polite painter is singing in the garden	the painter is singing
+summarize the tall child is laughing at the beach	the child is laughing
+summarize the calm artist is thinking in the classroom	the artist is thinking
+summarize the friendly turkey is exploring in the barn	the turkey is exploring
+summarize the agile turkey is playing on the farm	the turkey is playing
+summarize the elegant duck is exploring in the barn	the duck is exploring
+summarize the calm horse is resting in the barn	the horse is resting
+summarize the tall engineer is reading at home	the engineer is reading
+summarize the young teacher is eating in the classroom	the teacher is eating
+summarize the friendly cow is drinking in the barn	the cow is drinking
+summarize the kind artist is writing in the park	the artist is writing
+summarize the kind student is speaking in the garden	the student is speaking
+summarize the beautiful painter is studying in the classroom	the painter is studying
+summarize the elegant cow is resting in the field	the cow is resting
+summarize the smart boy is speaking at the restaurant	the boy is speaking
+summarize the beautiful horse is running in the field	the horse is running
+summarize the happy writer is writing in the classroom	the writer is writing
+summarize the calm adult is writing at the beach	the adult is writing
+summarize the ambitious professor is speaking in the classroom	the professor is speaking
+summarize the polite writer is thinking in the garden	the writer is thinking
+summarize the kind artist is singing in the garden	the artist is singing
+summarize the agreable engineer is speaking in the classroom	the engineer is speaking
+summarize the fast duck is sleeping in the barn	the duck is sleeping
+summarize the tall artist is laughing in the classroom	the artist is laughing
+summarize the beautiful engineer is reading in the garden	the engineer is reading
+summarize the calm cow is sleeping in the barn	the cow is sleeping
+summarize the calm dog is resting in the field	the dog is resting
+summarize the kind student is laughing in the classroom	the student is laughing
+summarize the beautiful engineer is speaking at home	the engineer is speaking
+summarize the tall adult is singing at the beach	the adult is singing
+summarize the ambitious adult is reading at home	the adult is reading
+summarize the beautiful turkey is resting in the barn	the turkey is resting
+summarize the agile cat is playing in the field	the cat is playing
+summarize the beautiful writer is writing at the beach	the writer is writing
+summarize the smart student is singing at the beach	the student is singing
+summarize the calm artist is studying in the park	the artist is studying
+summarize the calm man is thinking in the park	the man is thinking
+summarize the fast chicken is playing in the field	the chicken is playing
+summarize the ambitious adult is eating at home	the adult is eating
+summarize the happy actress is drawing at the restaurant	the actress is drawing
+summarize the timid rabbit is running on the farm	the rabbit is running
+summarize the smart engineer is eating in the park	the engineer is eating
+summarize the sleepy duck is exploring in the barn	the duck is exploring
+summarize the tall girl is singing at the beach	the girl is singing
+summarize the shy cat is drinking in the field	the cat is drinking
+summarize the playful chicken is playing in the barn	the chicken is playing
+summarize the young adult is speaking in the garden	the adult is speaking
+summarize the agreable professor is thinking in the classroom	the professor is thinking
+summarize the calm man is reading in the park	the man is reading
+summarize the beautiful writer is working in the classroom	the writer is working
+summarize the fast rabbit is eating in the barn	the rabbit is eating
+summarize the agreable actor is speaking in the park	the actor is speaking
+summarize the calm adult is working in the classroom	the adult is working
+summarize the ambitious painter is drawing at home	the painter is drawing
+summarize the smart girl is writing at the restaurant	the girl is writing
+summarize the timid dog is playing in the field	the dog is playing
+summarize the calm horse is running in the field	the horse is running
+summarize the young painter is reading at home	the painter is reading
+summarize the calm cow is drinking on the farm	the cow is drinking
+summarize the ambitious actress is thinking in the classroom	the actress is thinking
+summarize the playful cow is sleeping on the farm	the cow is sleeping
+summarize the kind painter is speaking at home	the painter is speaking
+summarize the happy child is thinking at home	the child is thinking
+summarize the tall teacher is studying at the restaurant	the teacher is studying
+summarize the agile sheep is drinking in the barn	the sheep is drinking
+summarize the shy cat is drinking on the farm	the cat is drinking
+summarize the polite child is writing in the classroom	the child is writing
+summarize the shy chicken is drinking on the farm	the chicken is drinking
+summarize the friendly rabbit is running on the farm	the rabbit is running
+summarize the tall actor is studying at home	the actor is studying
+summarize the shy dog is drinking in the field	the dog is drinking
+summarize the smart painter is singing at home	the painter is singing
+summarize the elegant rabbit is drinking on the farm	the rabbit is drinking
+summarize the young student is singing at the beach	the student is singing
+summarize the kind painter is thinking at the beach	the painter is thinking
+summarize the smart child is drawing at the beach	the child is drawing
+summarize the beautiful adult is eating in the park	the adult is eating
+summarize the tall child is drawing in the classroom	the child is drawing
+summarize the polite adult is laughing at home	the adult is laughing
+summarize the beautiful girl is speaking in the classroom	the girl is speaking
+summarize the young student is working in the classroom	the student is working
+summarize the kind boy is studying in the park	the boy is studying
+summarize the polite girl is singing at home	the girl is singing
+summarize the fast dog is eating in the field	the dog is eating
+summarize the young actor is speaking at home	the actor is speaking
+summarize the calm student is drawing in the garden	the student is drawing
+summarize the polite girl is eating at the beach	the girl is eating
+summarize the smart man is singing in the park	the man is singing
+summarize the calm rabbit is sleeping in the barn	the rabbit is sleeping
+summarize the agreable boy is singing in the park	the boy is singing
+summarize the sleepy sheep is playing on the farm	the sheep is playing
+summarize the happy engineer is drawing in the park	the engineer is drawing
+summarize the kind adult is writing in the garden	the adult is writing
+summarize the agile cow is running in the field	the cow is running
+summarize the agreable engineer is singing at the beach	the engineer is singing
+summarize the young painter is working at home	the painter is working
+summarize the beautiful horse is playing on the farm	the horse is playing
+summarize the tall actor is working at the restaurant	the actor is working
+summarize the young painter is speaking at the beach	the painter is speaking
+summarize the happy artist is reading at the beach	the artist is reading
+summarize the sleepy chicken is resting in the barn	the chicken is resting
+summarize the smart student is studying in the classroom	the student is studying
+summarize the agile sheep is resting in the field	the sheep is resting
+summarize the ambitious engineer is speaking at home	the engineer is speaking
+summarize the calm boy is reading at the beach	the boy is reading
+summarize the kind professor is laughing at the beach	the professor is laughing
+summarize the beautiful child is eating in the park	the child is eating
+summarize the timid rabbit is exploring in the field	the rabbit is exploring
+summarize the sleepy dog is drinking on the farm	the dog is drinking
+summarize the playful duck is eating on the farm	the duck is eating
+summarize the shy duck is playing in the barn	the duck is playing
+summarize the elegant chicken is exploring in the field	the chicken is exploring
+summarize the shy sheep is sleeping in the barn	the sheep is sleeping
+summarize the sleepy dog is exploring in the field	the dog is exploring
+summarize the agreable actor is laughing at the restaurant	the actor is laughing
+summarize the polite writer is working in the classroom	the writer is working
+summarize the agreable actress is studying at the restaurant	the actress is studying
+summarize the young man is writing in the park	the man is writing
+summarize the kind child is thinking in the garden	the child is thinking
+summarize the beautiful adult is singing in the classroom	the adult is singing
+summarize the playful cow is resting in the barn	the cow is resting
+summarize the agreable student is laughing in the garden	the student is laughing
+summarize the happy artist is speaking in the classroom	the artist is speaking
+summarize the calm engineer is working at the restaurant	the engineer is working
+summarize the young man is eating in the park	the man is eating
+summarize the polite actress is working in the park	the actress is working
+summarize the tall man is speaking at home	the man is speaking
+summarize the calm sheep is sleeping in the field	the sheep is sleeping
+summarize the calm girl is singing at home	the girl is singing
+summarize the calm engineer is speaking at home	the engineer is speaking
+summarize the shy horse is drinking in the barn	the horse is drinking
+summarize the calm woman is reading in the garden	the woman is reading
+summarize the elegant chicken is drinking in the barn	the chicken is drinking
+summarize the kind actress is speaking in the garden	the actress is speaking
+summarize the calm child is eating in the garden	the child is eating
+summarize the calm turkey is running on the farm	the turkey is running
+summarize the calm man is speaking in the garden	the man is speaking
+summarize the agreable woman is laughing at home	the woman is laughing
+summarize the smart painter is singing at home	the painter is singing
+summarize the polite woman is laughing at home	the woman is laughing
+summarize the happy boy is eating in the park	the boy is eating
+summarize the smart professor is eating in the garden	the professor is eating
+summarize the playful rabbit is exploring on the farm	the rabbit is exploring
+summarize the agreable man is studying in the classroom	the man is studying
+summarize the agreable engineer is studying in the park	the engineer is studying
+summarize the polite actor is drawing in the classroom	the actor is drawing
+summarize the polite woman is speaking in the classroom	the woman is speaking
+summarize the polite actress is speaking in the garden	the actress is speaking
+summarize the elegant horse is eating in the field	the horse is eating
+summarize the smart writer is thinking at the beach	the writer is thinking
+summarize the ambitious student is thinking at the beach	the student is thinking
+summarize the timid horse is running in the barn	the horse is running
+summarize the agreable engineer is reading in the garden	the engineer is reading
+summarize the calm student is drawing in the garden	the student is drawing
+summarize the playful duck is sleeping in the field	the duck is sleeping
+summarize the agile dog is drinking in the barn	the dog is drinking
+summarize the shy turkey is resting on the farm	the turkey is resting
+summarize the tall boy is drawing at home	the boy is drawing
+summarize the ambitious engineer is speaking at the beach	the engineer is speaking
+summarize the fast turkey is running in the field	the turkey is running
+summarize the smart actor is drawing in the park	the actor is drawing
+summarize the fast horse is playing in the barn	the horse is playing
+summarize the happy writer is thinking at the restaurant	the writer is thinking
+summarize the agreable girl is eating in the classroom	the girl is eating
+summarize the agreable artist is studying at home	the artist is studying
+summarize the polite adult is drawing at home	the adult is drawing
+summarize the smart writer is working in the classroom	the writer is working
+summarize the kind artist is drawing in the park	the artist is drawing
+summarize the happy boy is studying at home	the boy is studying
+summarize the kind man is studying at the restaurant	the man is studying
+summarize the beautiful horse is eating in the barn	the horse is eating
+summarize the beautiful actor is reading in the garden	the actor is reading
+summarize the elegant duck is eating in the barn	the duck is eating
+summarize the shy dog is playing on the farm	the dog is playing
+summarize the polite boy is speaking in the garden	the boy is speaking
+summarize the polite adult is singing in the classroom	the adult is singing
+summarize the agile dog is exploring on the farm	the dog is exploring
+summarize the young actress is laughing at home	the actress is laughing
+summarize the calm painter is writing at home	the painter is writing
+summarize the beautiful boy is singing in the park	the boy is singing
+summarize the tall girl is eating in the classroom	the girl is eating
+summarize the calm child is working at home	the child is working
+summarize the shy duck is sleeping on the farm	the duck is sleeping
+summarize the playful cow is sleeping on the farm	the cow is sleeping
+summarize the smart child is laughing in the park	the child is laughing
+summarize the shy cat is exploring in the field	the cat is exploring
+summarize the young actor is studying at the restaurant	the actor is studying
+summarize the young painter is writing at home	the painter is writing
+summarize the calm cat is eating in the field	the cat is eating
+summarize the agile horse is drinking on the farm	the horse is drinking
+summarize the tall actress is reading in the garden	the actress is reading
+summarize the friendly rabbit is running in the field	the rabbit is running
+summarize the calm artist is singing in the garden	the artist is singing
+summarize the agile dog is sleeping in the barn	the dog is sleeping
+summarize the polite student is singing at the restaurant	the student is singing
+summarize the playful cat is playing in the field	the cat is playing
+summarize the agreable actress is laughing at home	the actress is laughing
+summarize the playful chicken is eating on the farm	the chicken is eating
+summarize the smart boy is studying at home	the boy is studying
+summarize the beautiful sheep is playing in the barn	the sheep is playing
+summarize the kind actress is studying at home	the actress is studying
+summarize the beautiful actor is singing at home	the actor is singing
+summarize the elegant cow is sleeping in the field	the cow is sleeping
+summarize the happy adult is thinking at the restaurant	the adult is thinking
+summarize the kind actor is speaking at the restaurant	the actor is speaking
+summarize the beautiful actress is eating in the garden	the actress is eating
+summarize the shy cow is drinking in the field	the cow is drinking
+summarize the smart child is thinking in the garden	the child is thinking
+summarize the shy dog is resting in the barn	the dog is resting
+summarize the happy adult is speaking at the beach	the adult is speaking
+summarize the polite painter is singing in the classroom	the painter is singing
+summarize the calm chicken is eating in the field	the chicken is eating
+summarize the ambitious student is thinking in the garden	the student is thinking
+summarize the calm writer is laughing at the beach	the writer is laughing
+summarize the tall adult is reading in the park	the adult is reading
+summarize the tall child is working at the beach	the child is working
+summarize the smart student is laughing in the classroom	the student is laughing
+summarize the agile dog is drinking in the barn	the dog is drinking
+summarize the calm duck is eating in the barn	the duck is eating
+summarize the timid sheep is eating in the barn	the sheep is eating
+summarize the beautiful teacher is thinking in the garden	the teacher is thinking
+summarize the young actor is drawing at the beach	the actor is drawing
+summarize the ambitious adult is laughing at the beach	the adult is laughing
+summarize the tall child is reading at the restaurant	the child is reading
+summarize the polite professor is singing in the classroom	the professor is singing
+summarize the timid horse is running on the farm	the horse is running
+summarize the agile chicken is playing in the field	the chicken is playing
+summarize the friendly horse is sleeping in the barn	the horse is sleeping
+summarize the beautiful woman is thinking at the beach	the woman is thinking
+summarize the sleepy chicken is sleeping in the field	the chicken is sleeping
+summarize the elegant cow is resting in the field	the cow is resting
+summarize the timid cat is sleeping in the barn	the cat is sleeping
+summarize the ambitious child is thinking in the classroom	the child is thinking
+summarize the beautiful girl is thinking in the park	the girl is thinking
+summarize the sleepy duck is playing on the farm	the duck is playing
+summarize the agile chicken is sleeping in the field	the chicken is sleeping
+summarize the timid rabbit is exploring on the farm	the rabbit is exploring
+summarize the fast horse is sleeping on the farm	the horse is sleeping
+summarize the kind student is writing in the garden	the student is writing
+summarize the ambitious actor is singing in the classroom	the actor is singing
+summarize the friendly cow is running in the barn	the cow is running
+summarize the kind writer is working in the classroom	the writer is working
+summarize the playful duck is eating in the barn	the duck is eating
+summarize the tall artist is working at home	the artist is working
+summarize the playful horse is running on the farm	the horse is running
+summarize the sleepy rabbit is running in the field	the rabbit is running
+summarize the friendly cat is exploring in the barn	the cat is exploring
+summarize the happy artist is speaking at home	the artist is speaking
+summarize the tall man is speaking at the restaurant	the man is speaking
+summarize the calm professor is drawing in the park	the professor is drawing
+summarize the agile cow is resting in the barn	the cow is resting
+summarize the agreable engineer is singing at the restaurant	the engineer is singing
+summarize the timid dog is playing in the field	the dog is playing
+summarize the elegant dog is drinking on the farm	the dog is drinking
+summarize the happy student is singing in the garden	the student is singing
+summarize the beautiful chicken is exploring in the barn	the chicken is exploring
+summarize the kind actor is singing in the garden	the actor is singing
+summarize the ambitious child is laughing in the park	the child is laughing
+summarize the calm child is reading in the garden	the child is reading
+summarize the ambitious professor is reading in the park	the professor is reading
+summarize the happy man is working at the restaurant	the man is working
+summarize the tall woman is laughing in the classroom	the woman is laughing
+summarize the tall actress is writing at home	the actress is writing
+summarize the agile horse is sleeping in the barn	the horse is sleeping
+summarize the timid dog is eating on the farm	the dog is eating
+summarize the timid rabbit is sleeping in the field	the rabbit is sleeping
+summarize the sleepy horse is playing in the barn	the horse is playing
+summarize the calm engineer is thinking in the classroom	the engineer is thinking
+summarize the beautiful professor is writing at home	the professor is writing
+summarize the shy duck is eating on the farm	the duck is eating
+summarize the kind student is reading at the restaurant	the student is reading
+summarize the polite actress is working in the garden	the actress is working
+summarize the sleepy dog is running in the field	the dog is running
+summarize the beautiful child is singing at the restaurant	the child is singing
+summarize the elegant sheep is drinking in the barn	the sheep is drinking
+summarize the happy adult is reading at the restaurant	the adult is reading
+summarize the elegant dog is eating in the barn	the dog is eating
+summarize the shy dog is resting in the barn	the dog is resting
+summarize the young teacher is eating at the beach	the teacher is eating
+summarize the beautiful chicken is running on the farm	the chicken is running
+summarize the fast horse is drinking in the barn	the horse is drinking
+summarize the beautiful sheep is exploring in the barn	the sheep is exploring
+summarize the tall boy is eating at the beach	the boy is eating
+summarize the beautiful writer is speaking at the beach	the writer is speaking
+summarize the timid cat is running in the field	the cat is running
+summarize the beautiful cow is exploring in the field	the cow is exploring
+summarize the elegant sheep is running in the field	the sheep is running
+summarize the calm dog is resting on the farm	the dog is resting
+summarize the fast duck is drinking on the farm	the duck is drinking
+summarize the sleepy cow is drinking on the farm	the cow is drinking
+summarize the tall student is speaking at the restaurant	the student is speaking
+summarize the tall student is reading in the garden	the student is reading
+summarize the sleepy dog is playing on the farm	the dog is playing
+summarize the polite adult is reading in the garden	the adult is reading
+summarize the beautiful duck is exploring in the barn	the duck is exploring
+summarize the tall girl is drawing at the restaurant	the girl is drawing
+summarize the ambitious engineer is reading in the park	the engineer is reading
+summarize the happy actress is laughing at the beach	the actress is laughing
+summarize the agreable engineer is studying in the classroom	the engineer is studying
+summarize the polite writer is working in the classroom	the writer is working
+summarize the beautiful writer is studying at the restaurant	the writer is studying
+summarize the playful cow is resting in the field	the cow is resting
+summarize the beautiful woman is studying at home	the woman is studying
+summarize the smart student is reading in the park	the student is reading
+summarize the ambitious man is writing in the garden	the man is writing
+summarize the calm sheep is playing on the farm	the sheep is playing
+summarize the young boy is speaking in the garden	the boy is speaking
+summarize the elegant dog is drinking in the field	the dog is drinking
+summarize the kind boy is laughing at the beach	the boy is laughing
+summarize the agile sheep is eating on the farm	the sheep is eating
+summarize the sleepy dog is running on the farm	the dog is running
+summarize the beautiful cow is exploring in the field	the cow is exploring
+summarize the friendly sheep is resting in the barn	the sheep is resting
+summarize the calm turkey is sleeping in the barn	the turkey is sleeping
+summarize the smart adult is writing in the classroom	the adult is writing
+summarize the ambitious woman is writing in the garden	the woman is writing
+summarize the happy woman is working at the restaurant	the woman is working
+summarize the happy man is singing at home	the man is singing
+summarize the timid dog is eating on the farm	the dog is eating
+summarize the beautiful artist is working at home	the artist is working
+summarize the smart writer is laughing in the garden	the writer is laughing
+summarize the kind woman is eating in the garden	the woman is eating
+summarize the shy sheep is playing on the farm	the sheep is playing
+summarize the beautiful duck is exploring on the farm	the duck is exploring
+summarize the tall writer is writing at the beach	the writer is writing
+summarize the kind actor is reading at the restaurant	the actor is reading
+summarize the kind man is writing at the restaurant	the man is writing
+summarize the tall artist is writing in the park	the artist is writing
+summarize the calm engineer is drawing in the garden	the engineer is drawing
+summarize the beautiful actress is drawing at home	the actress is drawing
+summarize the playful cow is resting on the farm	the cow is resting
+summarize the calm professor is singing at the beach	the professor is singing
+summarize the beautiful child is writing in the classroom	the child is writing
+summarize the polite teacher is speaking in the park	the teacher is speaking
+summarize the kind woman is working in the park	the woman is working
+summarize the polite teacher is singing at the beach	the teacher is singing
+summarize the young writer is writing in the park	the writer is writing
+summarize the smart painter is reading in the classroom	the painter is reading
+summarize the playful chicken is running in the field	the chicken is running
+summarize the elegant chicken is playing on the farm	the chicken is playing
+summarize the polite girl is laughing at home	the girl is laughing
+summarize the young professor is writing in the garden	the professor is writing
+summarize the smart artist is reading at home	the artist is reading
+summarize the happy child is eating at home	the child is eating
+summarize the playful cat is sleeping in the barn	the cat is sleeping
+summarize the calm girl is speaking at home	the girl is speaking
+summarize the agreable adult is drawing at the beach	the adult is drawing
+summarize the sleepy rabbit is sleeping on the farm	the rabbit is sleeping
+summarize the smart student is studying in the park	the student is studying
+summarize the friendly chicken is playing in the field	the chicken is playing
+summarize the ambitious actor is eating in the park	the actor is eating
+summarize the tall actress is reading at the restaurant	the actress is reading
+summarize the playful rabbit is exploring in the barn	the rabbit is exploring
+summarize the tall artist is studying in the classroom	the artist is studying
+summarize the beautiful horse is exploring in the barn	the horse is exploring
+summarize the calm rabbit is exploring in the field	the rabbit is exploring
+summarize the kind artist is studying in the garden	the artist is studying
+summarize the agreable girl is reading at the restaurant	the girl is reading
+summarize the kind writer is working at the restaurant	the writer is working
+summarize the agreable writer is working in the garden	the writer is working
+summarize the calm cow is resting in the field	the cow is resting
+summarize the elegant sheep is drinking on the farm	the sheep is drinking
+summarize the fast cow is eating on the farm	the cow is eating
+summarize the smart writer is speaking at the beach	the writer is speaking
+summarize the tall girl is writing at home	the girl is writing
+summarize the smart boy is studying in the park	the boy is studying
+summarize the calm student is writing at home	the student is writing
+summarize the fast cat is playing in the barn	the cat is playing
+summarize the calm boy is drawing in the classroom	the boy is drawing
+summarize the playful chicken is playing on the farm	the chicken is playing
+summarize the young teacher is singing at the restaurant	the teacher is singing
+summarize the tall adult is eating at home	the adult is eating
+summarize the elegant cow is playing in the barn	the cow is playing
+summarize the ambitious teacher is eating in the garden	the teacher is eating
+summarize the beautiful girl is working in the garden	the girl is working
+summarize the fast duck is resting in the field	the duck is resting
+summarize the calm professor is reading in the classroom	the professor is reading
+summarize the young teacher is studying at the restaurant	the teacher is studying
+summarize the beautiful cat is drinking on the farm	the cat is drinking
+summarize the sleepy sheep is drinking in the field	the sheep is drinking
+summarize the tall man is singing at home	the man is singing
+summarize the polite child is speaking in the classroom	the child is speaking
+summarize the friendly sheep is drinking in the field	the sheep is drinking
+summarize the beautiful turkey is exploring in the barn	the turkey is exploring
+summarize the calm teacher is writing at home	the teacher is writing
+summarize the kind engineer is singing at the restaurant	the engineer is singing
+summarize the friendly cat is exploring in the barn	the cat is exploring
+summarize the polite teacher is writing at home	the teacher is writing
+summarize the ambitious actress is singing in the classroom	the actress is singing
+summarize the ambitious actor is singing at home	the actor is singing
+summarize the happy engineer is laughing at the beach	the engineer is laughing
+summarize the agreable professor is eating at the beach	the professor is eating
+summarize the tall woman is speaking at the restaurant	the woman is speaking
+summarize the kind man is laughing at home	the man is laughing
+summarize the calm painter is speaking at the restaurant	the painter is speaking
+summarize the friendly sheep is playing in the barn	the sheep is playing
+summarize the ambitious girl is writing in the garden	the girl is writing
+summarize the friendly cat is eating on the farm	the cat is eating
+summarize the timid duck is eating on the farm	the duck is eating
+summarize the kind actress is thinking in the garden	the actress is thinking
+summarize the shy dog is resting in the barn	the dog is resting
+summarize the smart artist is thinking in the garden	the artist is thinking
+summarize the playful rabbit is sleeping on the farm	the rabbit is sleeping
+summarize the beautiful student is eating at the restaurant	the student is eating
+summarize the ambitious actress is drawing in the classroom	the actress is drawing
+summarize the smart boy is singing at the restaurant	the boy is singing
+summarize the tall girl is eating in the classroom	the girl is eating
+summarize the happy man is studying at the beach	the man is studying
+summarize the beautiful chicken is exploring in the barn	the chicken is exploring
+summarize the ambitious man is eating in the park	the man is eating
+summarize the young artist is laughing in the park	the artist is laughing
+summarize the agreable actress is laughing at the beach	the actress is laughing
+summarize the sleepy rabbit is drinking in the barn	the rabbit is drinking
+summarize the calm turkey is running in the barn	the turkey is running
+summarize the calm actor is working in the garden	the actor is working
+summarize the agreable boy is working in the park	the boy is working
+summarize the smart woman is studying in the park	the woman is studying
+summarize the smart man is singing at home	the man is singing
+summarize the tall boy is reading in the garden	the boy is reading
+summarize the shy duck is sleeping in the barn	the duck is sleeping
+summarize the ambitious adult is thinking in the garden	the adult is thinking
+summarize the calm man is studying at the beach	the man is studying
+summarize the beautiful professor is writing at home	the professor is writing
+summarize the sleepy turkey is resting in the field	the turkey is resting
+summarize the kind adult is studying at the restaurant	the adult is studying
+summarize the timid rabbit is sleeping in the field	the rabbit is sleeping
+summarize the elegant duck is playing in the barn	the duck is playing
+summarize the happy man is writing at the restaurant	the man is writing
+summarize the polite professor is reading at the restaurant	the professor is reading
+summarize the agreable woman is working in the garden	the woman is working
+summarize the tall boy is eating at home	the boy is eating
+summarize the timid cow is playing in the field	the cow is playing
+summarize the fast turkey is running on the farm	the turkey is running
+summarize the tall engineer is thinking at home	the engineer is thinking
+summarize the kind student is eating at the beach	the student is eating
+summarize the timid dog is exploring on the farm	the dog is exploring
+summarize the young painter is eating in the garden	the painter is eating
+summarize the beautiful student is reading in the park	the student is reading
+summarize the ambitious artist is studying at the restaurant	the artist is studying
+summarize the calm professor is speaking at the beach	the professor is speaking
+summarize the tall professor is thinking in the classroom	the professor is thinking
+summarize the agreable professor is speaking at the beach	the professor is speaking
+summarize the beautiful horse is sleeping in the field	the horse is sleeping
+summarize the timid chicken is exploring in the field	the chicken is exploring
+summarize the tall child is writing in the classroom	the child is writing
+summarize the tall woman is working at the restaurant	the woman is working
+summarize the elegant chicken is eating in the field	the chicken is eating
+summarize the agile dog is playing in the field	the dog is playing
+summarize the polite actor is singing in the park	the actor is singing
+summarize the young student is drawing at the beach	the student is drawing
+summarize the agreable painter is reading in the classroom	the painter is reading
+summarize the agreable artist is singing in the garden	the artist is singing
+summarize the beautiful professor is drawing at the restaurant	the professor is drawing
+summarize the playful duck is drinking on the farm	the duck is drinking
+summarize the calm writer is thinking at the beach	the writer is thinking
+summarize the calm sheep is playing in the barn	the sheep is playing
+summarize the sleepy cat is resting in the field	the cat is resting
+summarize the tall artist is singing at the beach	the artist is singing
+summarize the calm student is thinking in the classroom	the student is thinking
+summarize the sleepy turkey is playing in the barn	the turkey is playing
+summarize the young professor is eating in the classroom	the professor is eating
+summarize the friendly sheep is eating on the farm	the sheep is eating
+summarize the ambitious teacher is studying at the beach	the teacher is studying
+summarize the shy chicken is sleeping on the farm	the chicken is sleeping
+summarize the ambitious child is writing in the classroom	the child is writing
+summarize the agreable actress is eating at the restaurant	the actress is eating
+summarize the polite professor is laughing at the restaurant	the professor is laughing
+summarize the calm adult is studying at the restaurant	the adult is studying
+summarize the tall child is studying in the classroom	the child is studying
+summarize the tall boy is working in the park	the boy is working
+summarize the beautiful boy is speaking in the classroom	the boy is speaking
+summarize the agreable artist is working at the restaurant	the artist is working
+summarize the happy teacher is speaking at home	the teacher is speaking
+summarize the calm actress is reading at home	the actress is reading
+summarize the smart artist is drawing at the beach	the artist is drawing
+summarize the young child is writing in the garden	the child is writing
+summarize the tall writer is speaking in the classroom	the writer is speaking
+summarize the smart artist is working in the garden	the artist is working
+summarize the friendly rabbit is playing in the field	the rabbit is playing
+summarize the calm painter is eating in the park	the painter is eating
+summarize the friendly chicken is eating on the farm	the chicken is eating
+summarize the tall student is working at home	the student is working
+summarize the polite painter is speaking in the garden	the painter is speaking
+summarize the kind adult is studying at home	the adult is studying
+summarize the ambitious adult is reading in the park	the adult is reading
+summarize the tall adult is laughing in the park	the adult is laughing
+summarize the shy dog is drinking on the farm	the dog is drinking
+summarize the young writer is working at the restaurant	the writer is working
+summarize the agile turkey is running on the farm	the turkey is running
+summarize the happy writer is speaking at home	the writer is speaking
+summarize the timid cow is exploring in the barn	the cow is exploring
+summarize the smart professor is eating at home	the professor is eating
+summarize the young writer is reading at home	the writer is reading
+summarize the polite child is thinking at the beach	the child is thinking
+summarize the tall actress is writing in the park	the actress is writing
+summarize the shy cat is exploring in the barn	the cat is exploring
+summarize the tall actor is working in the classroom	the actor is working
+summarize the kind actor is singing in the classroom	the actor is singing
+summarize the calm teacher is writing at home	the teacher is writing
+summarize the kind girl is working at the beach	the girl is working
+summarize the polite adult is working in the classroom	the adult is working
+summarize the agreable student is eating at the beach	the student is eating
+summarize the agreable artist is singing in the park	the artist is singing
+summarize the happy painter is thinking in the classroom	the painter is thinking
+summarize the ambitious professor is laughing in the garden	the professor is laughing
+summarize the beautiful sheep is sleeping in the barn	the sheep is sleeping
+summarize the polite girl is thinking in the classroom	the girl is thinking
+summarize the agreable woman is studying at the beach	the woman is studying
+summarize the timid horse is running in the field	the horse is running
+summarize the shy sheep is exploring in the field	the sheep is exploring
+summarize the ambitious painter is speaking at the restaurant	the painter is speaking
+summarize the agreable woman is singing in the park	the woman is singing
+summarize the young professor is singing in the park	the professor is singing
+summarize the happy painter is laughing in the classroom	the painter is laughing
+summarize the agreable student is writing at the restaurant	the student is writing
+summarize the sleepy rabbit is sleeping on the farm	the rabbit is sleeping
+summarize the ambitious actor is speaking at the restaurant	the actor is speaking
+summarize the tall child is working in the classroom	the child is working
+summarize the kind man is eating at the restaurant	the man is eating
+summarize the sleepy cat is eating in the barn	the cat is eating
+summarize the young artist is laughing in the classroom	the artist is laughing
+summarize the agreable artist is writing at home	the artist is writing
+summarize the agreable adult is working at the restaurant	the adult is working
+summarize the beautiful sheep is drinking on the farm	the sheep is drinking
+summarize the happy actor is eating at the beach	the actor is eating
+summarize the shy cow is drinking on the farm	the cow is drinking
+summarize the smart student is eating at the beach	the student is eating
+summarize the young engineer is writing in the classroom	the engineer is writing
+summarize the beautiful chicken is drinking in the field	the chicken is drinking
+summarize the timid dog is resting in the field	the dog is resting
+summarize the tall professor is eating in the classroom	the professor is eating
+summarize the polite man is speaking in the classroom	the man is speaking
+what is the capital of france	paris
+where is paris	in france
+in which country is john if he lives in paris	france
+what is the capital of italy	rome
+where is rome	in italy
+in which country is john if he lives in rome	italy
+what is the capital of germany	berlin
+where is berlin	in germany
+in which country is john if he lives in berlin	germany
+what is the capital of england	london
+where is london	in england
+in which country is john if he lives in london	england
+what is the capital of albania	tirana
+where is tirana	in albania
+in which country is john if he lives in tirana	albania
+what is the capital of austria	vienna
+where is vienna	in austria
+in which country is john if he lives in vienna	austria
+what is the capital of belarus	minsk
+where is minsk	belarus
+in which country is john if he lives in minsk	belarus
+what is the capital of belgium	brusseles
+where is brusseles	in belgium
+in which country is john if he lives in brusseles	belgium
+what is the capital of bulgaria	sofia
+where is sofia	in bulgaria
+in which country is john if he lives in sofia	bulgaria
+what is the capital of croatia	zagreb
+where is zagreb	in croatia
+in which country is john if he lives in zagreb	croatia
+what is the capital of greece	athens
+where is athens	in greece
+in which country is john if he lives in athens	greece
+what is the capital of ireland	athens
+where is dublin	in ireland
+in which country is john if he lives in dublin	ireland
+what is the capital of latvia	riga
+where is riga	in latvia
+in which country is john if he lives in riga	latvia
+what is the capital of netherlands	amsterdam
+where is amsterdam	in netherlands
+in which country is john if he lives in amsterdam	netherlands
+what is the capital of poland	warsaw
+where is warsaw	in poland
+in which country is john if he lives in warsaw	poland
+what is the capital of portugal	lisbon
+where is lisbon	in portugal
+in which country is john if he lives in lisbon	portugal
+what is the capital of spain	madrid
+what is the capital of romania	bucharest

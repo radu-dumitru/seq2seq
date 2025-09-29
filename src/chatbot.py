@@ -5,12 +5,12 @@ from utils import tokenize, words_to_indices
 from constants import SOS_TOKEN, EOS_TOKEN
 from beam_search import beam_search
 from hyperparams import HParams
-from data_builder import DataBuilder
+from data_loader import DataLoader
 
 hp = HParams()
-data_builder = DataBuilder()
-word2idx = data_builder.word2idx
-idx2word = data_builder.idx2word
+data_loader = DataLoader()
+word2idx = data_loader.word2idx
+idx2word = data_loader.idx2word
 vocab_size = len(word2idx)
 
 params = np.load("data/model.npz", allow_pickle=True)
