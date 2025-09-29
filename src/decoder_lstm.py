@@ -82,7 +82,6 @@ class DecoderLSTM:
 
         return h_t, c_t, p_t
 
-
     def backward(self, targets):
         xs = self._cache["xs"]
         hs = self._cache["hs"]

@@ -1533,53 +1533,37 @@ summarize the beautiful chicken is drinking in the field	the chicken is drinking
 summarize the timid dog is resting in the field	the dog is resting
 summarize the tall professor is eating in the classroom	the professor is eating
 summarize the polite man is speaking in the classroom	the man is speaking
-what is the capital of france	paris
-where is paris	in france
-in which country is john if he lives in paris	france
-what is the capital of italy	rome
-where is rome	in italy
-in which country is john if he lives in rome	italy
-what is the capital of germany	berlin
-where is berlin	in germany
-in which country is john if he lives in berlin	germany
-what is the capital of england	london
-where is london	in england
-in which country is john if he lives in london	england
-what is the capital of albania	tirana
-where is tirana	in albania
-in which country is john if he lives in tirana	albania
-what is the capital of austria	vienna
-where is vienna	in austria
-in which country is john if he lives in vienna	austria
-what is the capital of belarus	minsk
+capital of france	paris
+where is paris	france
+capital of italy	rome
+where is rome	italy
+capital of germany	berlin
+where is berlin	germany
+capital of england	london
+where is london	england
+capital of albania	tirana
+where is tirana	albania
+capital of austria	vienna
+where is vienna	austria
+capital of belarus	minsk
 where is minsk	belarus
-in which country is john if he lives in minsk	belarus
-what is the capital of belgium	brusseles
-where is brusseles	in belgium
-in which country is john if he lives in brusseles	belgium
-what is the capital of bulgaria	sofia
-where is sofia	in bulgaria
-in which country is john if he lives in sofia	bulgaria
-what is the capital of croatia	zagreb
-where is zagreb	in croatia
-in which country is john if he lives in zagreb	croatia
-what is the capital of greece	athens
-where is athens	in greece
-in which country is john if he lives in athens	greece
-what is the capital of ireland	athens
-where is dublin	in ireland
-in which country is john if he lives in dublin	ireland
-what is the capital of latvia	riga
-where is riga	in latvia
-in which country is john if he lives in riga	latvia
-what is the capital of netherlands	amsterdam
-where is amsterdam	in netherlands
-in which country is john if he lives in amsterdam	netherlands
-what is the capital of poland	warsaw
-where is warsaw	in poland
-in which country is john if he lives in warsaw	poland
-what is the capital of portugal	lisbon
-where is lisbon	in portugal
-in which country is john if he lives in lisbon	portugal
-what is the capital of spain	madrid
-what is the capital of romania	bucharest
+capital of belgium	brusseles
+where is brusseles	belgium
+capital of bulgaria	sofia
+where is sofia	bulgaria
+capital of croatia	zagreb
+where is zagreb	croatia
+capital of greece	athens
+where is athens	greece
+capital of ireland	dublin
+where is dublin	ireland
+capital of latvia	riga
+where is riga	latvia
+capital of netherlands	amsterdam
+where is amsterdam	netherlands
+capital of poland	warsaw
+where is warsaw	poland
+capital of portugal	lisbon
+where is lisbon	portugal
+capital of spain	madrid
+capital of romania	bucharest

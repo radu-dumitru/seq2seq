@@ -2,8 +2,8 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True)
 class HParams:
-    embedding_dim: int = 50
-    hidden_size: int = 100
+    embedding_dim: int = 100
+    hidden_size: int = 150
     learning_rate: float = 1e-3
-    num_epochs: int = 15
+    num_epochs: int = 20
     checkpoint_interval: int = 100

@@ -60,10 +60,6 @@ for epoch in range(hp.num_epochs):
         used_idxs = np.unique(np.array(enc_in + dec_in, dtype=np.int32))
         embedding = optimizer.update_embedding("embedding", embedding, dE_total, used_idxs, step)
 
-        # ensure encoder / decoder keep the same reference (defensive)
-        encoder.embedding = embedding
-        decoder.embedding = embedding
-
         total_loss += loss
 
         if (i + 1) % hp.checkpoint_interval == 0:
