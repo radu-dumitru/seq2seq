@@ -12,6 +12,9 @@ class EncoderLSTM:
         self.Wx = np.random.randn(4*hidden_size, embedding_dim)*0.01
         self.Wh = np.random.randn(4*hidden_size, hidden_size)*0.01
         self.b = np.zeros((4*hidden_size, 1))
+
+        # encourage remembering at the start
+        self.b[self.hidden_size:2*self.hidden_size, :] = 1.0
         
         # internal cache for backward
         self._cache = None

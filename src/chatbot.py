@@ -1,15 +1,16 @@
 from encoder_lstm import EncoderLSTM
 from decoder_lstm import DecoderLSTM
-from vocab_builder import VocabBuilder
 import numpy as np
 from utils import tokenize, words_to_indices
 from constants import SOS_TOKEN, EOS_TOKEN
 from beam_search import beam_search
 from hyperparams import HParams
+from data_builder import DataBuilder
 
 hp = HParams()
-vocab_builder = VocabBuilder()
-word2idx, idx2word = vocab_builder.load_vocab()
+data_builder = DataBuilder()
+word2idx = data_builder.word2idx
+idx2word = data_builder.idx2word
 vocab_size = len(word2idx)
 
 params = np.load("data/model.npz", allow_pickle=True)
@@ -22,7 +23,7 @@ decoder.load_state_dict(params["decoder_state"].item())
 while True:
     user_prompt = input("You: ").strip()
 
-    enc_in = words_to_indices(tokenize(user_prompt), word2idx) + [word2idx[EOS_TOKEN]]
+    enc_in = [word2idx[SOS_TOKEN]] + words_to_indices(tokenize(user_prompt), word2idx) + [word2idx[EOS_TOKEN]]
 
     h0 = np.zeros((hp.hidden_size, 1))
     c0 = np.zeros((hp.hidden_size, 1))

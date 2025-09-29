@@ -5,3 +5,4 @@ data/word2idx.json
 data/model.npz
 data/movie_conversations.txt
 data/movie_lines.txt
+data/dataset.txt

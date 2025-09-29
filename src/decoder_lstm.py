@@ -14,6 +14,9 @@ class DecoderLSTM:
         self.Wh = np.random.randn(4*hidden_size, hidden_size)*0.01
         self.b = np.zeros((4*hidden_size, 1))
 
+        # encourage remembering at the start
+        self.b[self.hidden_size:2*self.hidden_size, :] = 1.0
+
         self.Why = np.random.randn(vocab_size, hidden_size)*0.01
         self.by = np.zeros((vocab_size, 1))
         

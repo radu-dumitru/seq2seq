@@ -1,25 +1,19 @@
-import numpy as np
-from data_loader import DataLoader
-from vocab_builder import VocabBuilder
 from encoder_lstm import EncoderLSTM
 from decoder_lstm import DecoderLSTM
-from utils import tokenize, words_to_indices, clip_grad_norm_, save_model_params, load_model_params
 from hyperparams import HParams
-from constants import SOS_TOKEN, EOS_TOKEN
-import os
 from adam_optimizer import Adam
+from data_builder import DataBuilder
+from utils import clip_grad_norm_, save_model_params, load_model_params
+import numpy as np
 
 hp = HParams()
 step = 0
 
-data_loader = DataLoader()
-data = data_loader.load_data(hp.max_number_lines)
+data_builder = DataBuilder()
+X, Y = data_builder.generate_large_dataset()
+vocab_size = len(data_builder.word2idx)
 
-vocab_builder = VocabBuilder()
-word2idx, idx2word = vocab_builder.build_vocab(data, hp.max_vocab_size)
-vocab_size = len(word2idx)
-
-embedding = np.random.randn(len(word2idx), hp.embedding_dim) * 0.01
+embedding = np.random.randn(len(data_builder.word2idx), hp.embedding_dim) * 0.01
 
 optimizer = Adam(hp.learning_rate)
 
@@ -40,13 +34,13 @@ optimizer.add_parameters([
 for epoch in range(hp.num_epochs):
     total_loss = 0.0
 
-    for i, (q, a) in enumerate(data):
+    for i, (q, a) in enumerate(zip(X, Y)):
         step += 1
 
-        enc_in = words_to_indices(tokenize(q), word2idx) + [word2idx[EOS_TOKEN]]
+        enc_in = q
 
-        dec_in = [word2idx[SOS_TOKEN]] + words_to_indices(tokenize(a), word2idx)
-        dec_out = words_to_indices(tokenize(a), word2idx) + [word2idx[EOS_TOKEN]]
+        dec_in = a[:-1]
+        dec_out = a[1:]
 
         h0 = np.zeros((hp.hidden_size, 1))
         c0 = np.zeros((hp.hidden_size, 1))
@@ -66,13 +60,19 @@ for epoch in range(hp.num_epochs):
         used_idxs = np.unique(np.array(enc_in + dec_in, dtype=np.int32))
         embedding = optimizer.update_embedding("embedding", embedding, dE_total, used_idxs, step)
 
+        # ensure encoder / decoder keep the same reference (defensive)
+        encoder.embedding = embedding
+        decoder.embedding = embedding
+
         total_loss += loss
 
         if (i + 1) % hp.checkpoint_interval == 0:
             avg_loss = total_loss / hp.checkpoint_interval
-            print(f"Epoch {epoch+1} iter {i+1}/{len(data)} — avg loss: {avg_loss:.4f}")
+            print(f"Epoch {epoch+1} iter {i+1}/{len(X)} — avg loss: {avg_loss:.4f}")
             total_loss = 0.0
             save_model_params(embedding, encoder, decoder, optimizer, step)
     
     print(f"Epoch {epoch+1} finished")
     save_model_params(embedding, encoder, decoder, optimizer, step)
+
+

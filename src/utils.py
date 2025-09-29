@@ -5,8 +5,13 @@ def sigmoid(x):
     return 1.0 / (1.0 + np.exp(-x))
 
 def softmax(x):
-    e = np.exp(x - np.max(x))
-    return e / np.sum(e)
+    # x can be (vocab, 1) or (vocab,) — make it 2D and operate on axis=0 safely
+    x = np.asarray(x)
+    # keep dims so broadcasting is safe for column vectors
+    x = x - np.max(x, axis=0, keepdims=True)
+    e = np.exp(x)
+    return e / np.sum(e, axis=0, keepdims=True)
+
 
 def tokenize(text):
     return text.split()
